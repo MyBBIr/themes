@@ -1,0 +1,3216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="MyBBGreen" version="1608">
+	<properties>
+		<templateset><![CDATA[6]]></templateset>
+		<editortheme><![CDATA[default]]></editortheme>
+		<imgdir><![CDATA[http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen]]></imgdir>
+		<logo><![CDATA[http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/logo.png]]></logo>
+		<tablespace><![CDATA[4]]></tablespace>
+		<borderwidth><![CDATA[1]]></borderwidth>
+	</properties>
+	<stylesheets>
+		<stylesheet name="global.css" version="1608"><![CDATA[@font-face {
+  font-family: 'b koodak';
+  src: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/BKoodakBold.eot?#') format('eot),  /* IE6–8 */
+       url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/BKoodakBold.woff') format('woff),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/BKoodakBold.ttf') format('truetype);  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+.msfont2 {
+  font-family: 'b koodak', Tahoma;
+  font-size:12px;
+}
+body {
+	background: #efefef url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/bg.gif);
+	color: #000;
+	font-family: Tahoma;
+	font-size: 11px;
+	text-align: center; 
+	line-height: 1.6em;
+	margin: 0;
+	text-align: right;
+}
+h1, h2, h3, h4 {
+	display: none;
+}
+a:link {
+	color: #7EA101;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #7EA101;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #7EA101;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px;
+}
+
+#container {
+	width: 98%;
+	  background: #fff;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin: auto;
+	  margin-top: 30px;
+	  border: 1px solid #878787;
+	  border-top: 0;
+	  border-bottom: 0;
+	  height: auto;
+	padding: 0px;
+	box-shadow: 0 0 5px #000;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+#content {
+	width: auto !important;
+	line-height: 1.5;
+}
+
+.menu ul {
+	color: #000000;
+	font-weight: bold;
+	text-align: right;
+	padding: 4px;
+}
+
+.menu ul a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu ul a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu ul a:hover, .menu ul a:active {
+	color: #4874a3;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px;
+}
+
+
+
+.msmenu ul , .msmenu li , .msmenu a {
+margin: 0;
+padding: 0;
+outline: 0;
+}
+.msmenu {
+height: 40px;
+	background: #7ebd2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7ebd2e), to(#62af00)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7ebd2e, endColorstr=#62af00);
+position: relative;
+margin-top: 0;
+}
+.msmenu li {
+position: relative;
+list-style: none;
+float: right;
+display: block;
+height: 40px;
+}
+
+.msmenu .active {
+background:#7ebd2e;
+position: relative;
+list-style: none;
+float: right;
+display: block;
+height: 43px;
+margin-top:-3px;
+}
+
+
+.msmenu li a {
+	display: block;
+	padding-right: 14px;
+	padding-left: 14px;
+	margin-top: 2px;
+	line-height: 38px;
+	text-decoration: none;
+	border-left: 1px solid #436a21;
+	border-right: 1px solid #2f5416;
+
+	font-family: 'b koodak', Tahoma, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+
+	color: #f3f3f3;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+.msmenu li:hover {
+background: #7ebd2e;
+}
+
+.msmenu li:first-child a { border-right: none; }
+.msmenu li:last-child a{ border-left: none; }
+
+.msmenu li:hover > a { color: #8fde62; }
+
+.msmenu ul {
+display:none;
+position:absolute;
+top:40px;
+right:10px;
+background: #518522;
+width: 150px;
+border: 1px solid #2f5416;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-bottom-right-radius:8px;
+	border-bottom-left-radius:8px;
+}
+.msmenu ul li {
+border: none;
+height: 36px;
+width: 150px;
+border-bottom: 1px solid #2f5416;
+}
+
+
+.msmenu ul li:last-child a{ border-bottom: none; }
+.msmenu li:hover ul {
+display:block;
+}
+
+.msmenu li:hover ul ul {
+display:none;
+position:absolute;
+top:0;
+right:150px;
+
+}
+.msmenu li:hover ul  li:hover ul {
+display:block;
+}
+
+.msmenu li:hover ul li:hover ul ul {
+display:none;
+}
+
+.msmenu li:hover ul li:hover ul li:hover ul {
+display:block;
+}
+
+.msmenu li:hover ul li:hover ul li:hover ul ul {
+display:none;
+}
+
+.msmenu li:hover ul li:hover ul ul li:hover ul {
+display:block;
+}
+
+
+
+
+
+
+
+#sing {
+	width:95%;
+text-shadow:2px 1px white !important;color :#6d685e;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;border-left:none;border-right:none;
+  border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;text-shadow:#b2b2b2 0 0 7px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfdfd), to(#eaf1db)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+    background: -o-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+     border-color:#DDDDDD #DDDDDD #C4C4C4 #C4C4C4;
+     -moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);
+border-top:3px solid #6B8E23;border-bottom:3px solid #6B8E23;
+     direction:rtl;
+     font-family:'b koodak', Tahoma;
+     font-size:12px;
+     margin:4px 7px;
+padding:0;
+     text-align:right;
+}
+
+.sing {
+margin:0;
+ padding:23px;
+background:url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/signature.png) center left no-repeat;
+}
+
+#panel {
+	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	color: #000;
+	margin: 0;
+	margin-top: -12px;
+	border-bottom: 1px solid #bebebe;
+	padding: 5px;
+	font-family: Tahoma;
+}
+
+.panel_mybb {
+	background: #3b3b3b;
+	color: #ffffff;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	height: 18px;
+	padding: 5px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.panel_mybb a:link, .panel_mybb a:visited, .panel_mybb a:hover, .panel_mybb a:active {
+	color: #ffffff;
+}
+
+.forum {
+	font-family: 'b koodak', Tahoma;
+	font-size: 12px;
+	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/forum_bit.png) center right repeat-x;
+	width:100%;
+	margin:0;
+	margin-bottom:5px;
+	border-top: 1px solid #6B8E23;
+	border-bottom: 1px solid #6B8E23;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0;
+}
+
+ .forumposts {
+	font-family:Tahoma;
+	font-size:11px;
+	background: #efefef;
+	border: 1px solid;
+	border-color:#DDDDDD #DDDDDD #C4C4C4 #C4C4C4;
+	border-radius: 3px 3px 3px 3px;
+	margin-top:3px;
+	margin-left:5px;
+	float:left;
+	text-align:center;
+	padding: 1px;
+	opacity: 0;
+}
+.forum:hover  .forumposts {
+	opacity: 1;
+}
+table {
+	color: #333;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 12px;
+	line-height: 1.6;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-top-right-radius:8px;
+	border-top-left-radius:8px;
+	border-bottom-right-radius:8px;
+	border-bottom-left-radius:8px;
+}
+
+.tborder {
+	background: #fff;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #C0C0C0;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+acronym, abbr {
+	cursor: help;
+	border-bottom: 1px dashed #555;
+}
+
+.thead {
+	background: #7ebd2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7ebd2e), to(#62af00)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7ebd2e, endColorstr=#62af00);
+	color: #fff;
+	border-bottom: 1px solid #bebebe;
+	padding: 7px 15px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	font-weight: bold;
+	font-family: 'b koodak', Tahoma;
+	font-size:12px;
+}
+.thead a:link, .thead a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.thead a:hover, .thead a:active {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px;
+}
+
+.thead2 {
+	background: #7ebd2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7ebd2e), to(#62af00)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7ebd2e, endColorstr=#62af00);
+	color: #fff;
+	border: 1px solid #bebebe;
+	padding: 7px 15px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-top-right-radius:6px;
+	border-top-left-radius:6px;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+	font-weight: bold;
+	width: auto !important;
+	margin-bottom:3px;
+}
+
+.thead2 a:link, .thead2 a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.thead2 a:hover, .thead2 a:active {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px;
+}
+
+.tcat {
+	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	font-family: 'b koodak', Tahoma;
+	color: #666;
+	border-bottom: 1px solid #bebebe;
+	font-size: 12px;
+	padding: 5px 8px;
+	text-shadow: 1px 1px 0 #fff;
+}
+
+.tcat2 {
+	font-family: 'b koodak', Tahoma;
+	font-size: 12px;
+	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	color: #666;
+	width:100%;
+	margin:0;
+	margin-bottom:3px;
+	border-top: 1px solid #6B8E23;
+	border-bottom: 1px solid #6B8E23;
+	border-radius: 8px 8px 8px 8px;
+	padding: 0;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.tcat2 a:link, .tcat2 a:visited, .tcat2 a:hover, .tcat2 a:active {
+	color: #333;
+}
+
+.tcat a:link, .tcat a:visited, .tcat a:hover, .tcat a:active {
+	color: #333;
+}
+
+.trow1 {
+	background: #f5f5f5;
+	border-bottom: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+}
+
+.trow2 {
+	background: #efefef;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e6e6e6;
+}
+
+.alt1 {
+	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/alt1.png) repeat-x;
+
+}
+
+.alt2 {
+	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/alt2.png) repeat-x;
+
+}
+
+.trow_shaded {
+	background: #ffdde0;
+}
+
+.trow_selected td {
+	background: #FFFBD9;
+	border-bottom: 1px solid #F7E86A;
+}
+
+.trow_sep {
+	background: #f5f5f5 url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	color: #333;
+	border-bottom: 1px solid #bebebe;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tfoot {
+	background: #7ebd2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7ebd2e), to(#62af00)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7ebd2e, endColorstr=#62af00);
+	color: #fff;
+	padding: 7px 15px;
+	border-top: 1px solid #bebebe;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+}
+
+.tfoot a:link, .tfoot a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+.tfoot a:hover, .tfoot a:active {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 0px 0px 1px;
+}
+.bottommenu {
+	background: #efefef;
+	color: #000000;
+	border: 1px solid #4874a3;
+	padding: 10px;
+}
+
+.navigation {
+	color: #000000;
+	font-size: 11px;
+	font-weight: bold;
+
+}
+
+.navigation a:link {
+	text-decoration: none;
+}
+
+.navigation a:visited {
+	text-decoration: none;
+}
+
+.navigation a:hover, .navigation a:active {
+	text-decoration: none;
+}
+
+.navigation .active {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.smalltext {
+	font-size: 11px;
+}
+
+h2,h3,h4 {
+	font-size: 11px;
+}
+
+.largetext {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input.textbox {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 1px;
+}
+
+textarea {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 2px;
+	font-family: Tahoma;
+	line-height: 1.4;
+	font-size: 13px;
+}
+
+select {
+	background: #ffffff;
+	border: 1px solid #0f5c8e;
+}
+
+.editor {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+}
+
+.editor_control_bar {
+	background: #fff;
+	border: 1px solid #0f5c8e;
+}
+
+.autocomplete {
+	background: #fff;
+	border: 1px solid #000;
+	color: black;
+}
+
+.autocomplete_selected {
+	background: #adcee7;
+	color: #000;
+}
+
+.popup_menu {
+	background: #ccc;
+	border: 1px solid #000;
+}
+
+.popup_menu .popup_item {
+	background: #fff;
+	color: #000;
+}
+
+.popup_menu .popup_item:hover {
+	background: #C7DBEE;
+	color: #000;
+}
+
+.trow_reputation_positive {
+	background: #ccffcc;
+}
+
+.trow_reputation_negative {
+	background: #ffcccc;
+}
+
+.reputation_positive {
+	color: green;
+}
+
+.reputation_neutral {
+	color: #444;
+}
+
+.reputation_negative {
+	color: red;
+}
+
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+	float: none;
+	width: 1%;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+}
+
+.menu li {
+	display: inline;
+	padding-left: 5px;
+}
+
+.menu img {
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+#panel .links {
+	margin: 0;
+	float: right;
+}
+
+.expcolimage {
+	float: left;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 2px;
+}
+
+img.attachment {
+	border: 1px solid #E9E5D7;
+	padding: 2px;
+}
+
+hr {
+	background-color: #000000;
+	color: #000000;
+	height: 1px;
+	border: 0px;
+}
+
+#copyright {
+	background: #7ebd2e;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7ebd2e), to(#62af00)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	background: -o-linear-gradient(top,  #7ebd2e, #62af00); /* for firefox 3.6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7ebd2e, endColorstr=#62af00);
+	color: #fff;
+	margin: 0;
+	padding: 6px;
+	border-top: 1px solid #003366;
+	font-size:11px;
+	font-family: Tahoma;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+#copyright a:link , #copyright a:visited , #copyright a:hover , #copyright a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#debug {
+	float: right;
+	text-align: right;
+	margin-top: 0;
+}
+
+.subforumicon {
+	border: 0;
+	vertical-align: middle;
+}
+
+.separator {
+	margin: 5px;
+	padding: 0;
+	height: 0px;
+	font-size: 1px;
+	list-style-type: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.popup_menu .popup_item_container {
+	margin: 1px;
+	text-align: right;
+}
+
+.popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.popup_menu a.popup_item:hover {
+	text-decoration: none;
+}
+
+.autocomplete {
+	text-align: right;
+}
+
+.thead a:hover,
+.thead a:active,
+.tcat a:hover,
+.tcat a:active {
+	border-bottom: 0;
+}
+
+span.invisible {
+	display: none;
+}
+
+fieldset.noborder {
+	border: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+blockquote {
+	border: 1px solid #ccc;
+	margin: 0;
+	background: #fff;
+	padding: 4px;
+}
+
+blockquote cite {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	font-style: normal;
+	display: block;
+	margin: 4px 0;
+}
+
+.codeblock {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 4px;
+  	width: 740px;
+}
+
+.codeblock php {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	width: 740px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 13px;
+}
+
+.codeblock .title {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+.codeblock code {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 13px;
+}
+
+
+#container #header {
+	background: #fff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/header_bg.png) repeat-x;
+  height: 150px;
+  position: relative;
+  border-bottom: 1px solid #7ebd2e;
+}
+
+#container #header a.link {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/logo_header.png) top left no-repeat;
+	width: 99.9%;
+	height: 150px;
+	display: block;
+	border-bottom: 0;
+	z-index: 10;
+}
+
+#header_top {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height:10px;
+	width:100%;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/navbg.gif) repeat-x; 
+}
+#header_footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height:10px;
+	width:100%;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/navbg.gif) repeat-x; 
+}
+
+#header_download {
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+#header_download div {
+	height:15px;
+	width:200px;
+text-shadow:2px 1px white !important;color :#6d685e;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;border-left:none;border-right:none;
+  border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;text-shadow:#b2b2b2 0 0 7px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfdfd), to(#eaf1db)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+    background: -o-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+     border-color:#DDDDDD #DDDDDD #C4C4C4 #C4C4C4;
+     -moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);
+border-top:2px solid #6B8E23;border-bottom:2px solid #6B8E23;
+     direction:rtl;
+     font-family:Tahoma;
+     font-size:11px;
+     margin:4px 7px;
+     padding:5px;
+     text-align:center;}
+
+
+
+#header_download2 {
+	position: absolute;
+	top: 40px;
+	right: 225px;
+	height:30px;
+	width:100px;
+text-shadow:2px 1px white !important;color :#6d685e;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;border-left:none;border-right:none;
+  border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;text-shadow:#b2b2b2 0 0 7px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfdfd), to(#eaf1db)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+    background: -o-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+     border-color:#DDDDDD #DDDDDD #C4C4C4 #C4C4C4;
+     -moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);
+border-top:2px solid #6B8E23;border-bottom:2px solid #6B8E23;
+     direction:rtl;
+     font-family:Tahoma;
+     font-size:48px;
+     margin:4px 7px;
+     padding:15px;
+     text-align:center;
+}
+
+#container #content {
+	padding: 12px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+div#search {
+	top: 5px;
+  left: 10px;
+  height: 26px;
+  position: absolute;
+  display: inline-table;
+  float: left;
+}
+
+span#search_right {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/search_right.gif) no-repeat;
+  cursor: text;
+  width: 3px;
+  height: 26px;
+  display: block;
+  position: relative;
+  float: right;
+  top: 0;
+  font-size: 2px;
+}
+
+input#search_box {
+	background: #fff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/search.png) center right no-repeat;
+  border: 1px solid #024570;
+  border-right: 0;
+	font-family: Tahoma, 'Trebuchet MS', Arial, sans-serif;
+  padding: 5px;
+  padding-right: 25px;
+  width: 150px;
+	height: 14px;
+	float: right;
+	top: 0;
+}
+
+input#search_button {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/search_button2.png) 100% 0% no-repeat; 
+	font-family: Tahoma, 'Trebuchet MS', Arial, sans-serif;
+	color: #fff;
+	border: 0;
+	padding: 4px 6px 4px 6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+	float: left;
+	top: 0;
+	width: 99px;
+	height: 26px;
+	cursor: pointer;
+}
+
+input#search_button:hover {
+	background-position: 100% 100%;
+}
+
+#menu {
+	position: absolute;
+	top: 91px;
+	right: 0;
+	padding-left: 41px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg_start.png) no-repeat; 
+	font-family: Tahoma, 'Trebuchet MS', Arial, sans-serif
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 34px;
+	background: #016db0 url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg.png) repeat-x;
+}
+
+#menu li {
+	float: left;
+	margin-top: 4px;
+	margin-right: 10px;
+}
+
+#menu li a {
+	padding: 4px 10px 3px 10px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border-bottom: 0;
+}
+
+#menu li a:hover {
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+#menu li.active a, #menu li.active a:hover {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg_active.png) no-repeat top left; 
+	color: #000;
+	padding: 4px 10px 4px 13px;
+	border-bottom: 2px solid #ffffff;
+}
+
+#menu li.active {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg_active2.png) no-repeat top right; 
+	padding-right: 4px;
+	position: relative;
+	bottom: -1px;
+}
+
+div#footer {
+	position: relative;
+	top: 10px;
+	font-size: 11px;
+	clear: both;
+	text-align: center;
+	line-height: 1.4;
+}
+
+div#footer p {
+	margin: 0 0.5em 0 0.5em;
+}
+
+.thead a:hover,
+.thead a:active,
+.tcat a:hover,
+.tcat a:active {
+	border-bottom: 0;
+}
+
+span.invisible {
+	display: none;
+}
+
+fieldset.noborder {
+	border: 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+.trow_selected td {
+	background: #FFFBD9;
+}
+
+.subject_new {
+	font-weight: bold;
+}
+
+.highlight {
+	background: #FFFFCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.pm_alert {
+	background: #FFF6BF;
+	border: 1px solid #FFD324;
+	text-align: center;
+	padding: 5px 20px;
+	font-size: 11px;
+	margin-bottom: 15px;
+}
+
+.red_alert {
+	background: #FBE3E4;
+	border: 1px solid #A5161A;
+	color: #A5161A;
+	text-align: center;
+	padding: 5px 20px;
+	font-size: 11px;
+	margin-bottom: 15px;
+}
+
+.high_warning {
+	color: #CC0000;
+}
+
+.moderate_warning {
+	color: #F3611B;
+}
+
+.low_warning {
+	color: #AE5700;
+}
+
+div.error {
+	padding: 5px 10px;
+	border-top: 2px solid #FFD324;
+	border-bottom: 2px solid #FFD324;
+	background: #FFF6BF;
+	font-size: 12px;
+}
+
+div.error p {
+	margin: 0;
+	color: #000;
+	font-weight: normal;
+}
+
+div.error p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+	color: #C00;
+	background: url(images/error.gif) no-repeat 0;
+}
+
+div.error.ul {
+	margin-left: 24px;
+}
+
+.online {
+	color: #15A018;
+}
+
+.offline {
+	color: #C7C7C7;
+}
+
+.pagination {
+	font-size: 11px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.tfoot .pagination, .tcat .pagination {
+	padding-top: 0;
+}
+
+.pagination .pages {
+	font-weight: bold;
+}
+
+.pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+.pagination a {
+	border: 1px solid #81A2C4;
+}
+
+.pagination .pagination_current {
+	background: #F5F5F5;
+	border: 1px solid #81A2C4;
+	font-weight: bold;
+	color: #000;
+}
+
+.pagination a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+.thread_legend, .thread_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.thread_legend dd {
+	padding-bottom: 4px;
+	margin-right: 15px;
+}
+
+.thread_legend img {
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+.forum_legend, .forum_legend dt, .forum_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.forum_legend dd {
+	float: right;
+	margin-left: 10px;
+}
+
+.forum_legend dt {
+	margin-left: 10px;
+	float: right;
+}
+
+.success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.error_message {
+	color: #C00;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.post_body {
+	padding: 5px;
+	clear: both; /* PM fix */
+}
+
+.post_content {
+	padding: 5px 10px;
+}
+
+blockquote cite span {
+	float: right; 
+	font-weight: normal;
+}
+
+blockquote cite span.highlight {
+	float: none;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+.quick_jump {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/jump.gif) no-repeat 0; 
+	width: 13px; 
+	height: 13px; 
+	padding-left: 13px;  
+	vertical-align: middle; 
+	border: none;
+}
+
+#panel .remember_me input {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.hiddenrow {
+	display: none;
+}
+
+.selectall {
+	background-color: #FFFBD9;
+	font-weight: bold;
+	text-align: center;
+}
+
+.repbox {
+	font-size:16px;
+	font-weight: bold;
+	padding:5px 7px 5px 7px;
+}
+
+._neutral {
+	background-color:#FAFAFA;
+	color: #999999;
+	border:1px solid #CCCCCC;
+}
+
+._minus {
+	background-color: #FDD2D1;
+	color: #CB0200;
+	border:1px solid #980201;
+}
+
+._plus {
+	background-color:#E8FCDC;
+	color: #008800;
+	border:1px solid #008800;
+}
+
+.pagination_breadcrumb {
+	background-color: #f5f5f5;
+	border: 1px solid #fff;
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+}
+
+.pagination_breadcrumb_link {
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.mysupport_status_technical {
+	color: blue;
+}
+
+.mysupport_status_solved {
+	color: green;
+}
+
+.mysupport_status_notsolved {
+	color: red;
+}
+
+.mysupport_bar_technical {
+	background: blue;
+	height: 10px;
+}
+
+.mysupport_bar_solved {
+	background: green;
+	height: 10px;
+}
+
+.mysupport_bar_notsolved {
+	background: red;
+	height: 10px;
+}
+
+.mysupport_bestanswer_highlight {
+	background: #D6ECA6 !important;
+}
+
+.mysupport_staff_highlight {
+	background: #E6E8FA !important;
+}
+
+.usercp_nav_support_threads {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_support.png) no-repeat left center;
+}
+
+.usercp_nav_assigned_threads {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_assigned.png) no-repeat left center;
+}
+
+.modcp_nav_tech_threads {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_technical.png) no-repeat left center;
+}
+
+.modcp_nav_deny_support {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_no_support.gif) no-repeat left center;
+}
+		
+.hide {
+   display: block;
+   margin: 5px;
+   padding: 10px;
+   border: 2px solid #A80014;
+   border-left: none;
+   border-right: none;
+   background: #FFC2C9;
+}		
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1608"><![CDATA[.usercp_nav_item {
+	display: block;
+	padding: 1px 23px 1px 0;
+}
+.usercp_nav_composepm {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/composepm.gif) no-repeat right center;
+}
+
+.usercp_nav_pmfolder {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/pmfolder.gif) no-repeat right center;
+}
+
+.usercp_nav_sub_pmfolder {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/sub_pmfolder.gif) no-repeat right center;
+}
+
+.usercp_nav_trash_pmfolder {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/trash_pmfolder.gif) no-repeat right center;
+}
+
+.usercp_nav_pmtracking {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/pmtracking.gif) no-repeat right center;
+}
+
+.usercp_nav_pmfolders {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/editfolders.gif) no-repeat right center;
+}
+
+.usercp_nav_profile {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/profile.gif) no-repeat right center;
+}
+
+.usercp_nav_email {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/email.gif) no-repeat right center;
+}
+
+.usercp_nav_password {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/password.gif) no-repeat right center;
+}
+
+.usercp_nav_username {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/username.gif) no-repeat right center;
+}
+
+.usercp_nav_editsig {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/editsig.gif) no-repeat right center;
+}
+
+.usercp_nav_avatar {
+	padding-right: 40px;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/avatar.gif) no-repeat right center;
+}
+
+.usercp_nav_options {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/options.gif) no-repeat right center;
+}
+
+.usercp_nav_usergroups {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/usergroups.gif) no-repeat right center;
+}
+
+.usercp_nav_editlists {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/editlists.gif) no-repeat right center;
+}
+
+.usercp_nav_attachments {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/attachments.gif) no-repeat right center;
+}
+
+.usercp_nav_drafts {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/drafts.gif) no-repeat right center;
+}
+
+.usercp_nav_subscriptions {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/subscriptions.gif) no-repeat right center;
+}
+
+.usercp_nav_fsubscriptions {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/fsubscriptions.gif) no-repeat right center;
+}
+
+.usercp_nav_notepad {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/notepad.gif) no-repeat right center;
+}
+
+.usercp_nav_viewprofile {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/viewprofile.gif) no-repeat right center;
+}
+
+.usercp_nav_home {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/home.gif) no-repeat right center;
+}
+
+.usercp_notepad {
+	width: 99%;
+}
+
+.usercp_container {
+	margin: 5px;
+	padding: 8px;
+	border:1px solid #CCCCCC;
+}]]>
+		</stylesheet>
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1608"><![CDATA[.modcp_nav_item {
+	display: block;
+	padding: 1px 0 1px 0;
+	padding-right: 23px;
+}
+
+.modcp_nav_home {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/home.gif) no-repeat right center;
+}
+
+.modcp_nav_announcements {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/announcements.gif) no-repeat right center;
+}
+
+.modcp_nav_reports {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/reports.gif) no-repeat right center;
+}
+
+.modcp_nav_modqueue {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/modqueue.gif) no-repeat right center;
+}
+
+.modcp_nav_modlogs {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/modlogs.gif) no-repeat right center;
+}
+
+.modcp_nav_editprofile {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/editprofile.gif) no-repeat right center;
+}
+
+.modcp_nav_banning {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/banning.gif) no-repeat right center;
+}
+
+.modcp_nav_warninglogs {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/warninglogs.gif) no-repeat right center;
+}
+
+.modcp_nav_ipsearch {
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/ipsearch.gif) no-repeat right center;
+}
+
+.modqueue_message {
+	overflow: auto;
+	max-height: 250px;
+}
+
+.modqueue_controls {
+	width: 270px;
+	float: left;
+	text-align: center;
+	border: 1px solid #ccc;
+	background: #fff;
+	padding: 6px;
+	font-weight: bold;
+}
+
+.modqueue_controls label {
+	margin-left: 8px;
+}
+
+.label_radio_ignore, .label_radio_delete, .label_radio_approve {
+	font-weight: bold;
+}
+
+.modqueue_meta {
+	color: #444;
+	font-size: 95%;
+	margin-bottom: 8px;
+}
+
+.modqueue_mass {
+	list-style: none;
+	margin: 0;
+	width: 150px;
+	padding: 0;
+}
+
+.modqueue_mass li {
+	margin-bottom: 4px;
+	padding: 0;
+}
+
+.modqueue_mass li a {
+	display: block;
+	padding: 4px;
+	border: 1px solid transparent;
+}
+
+.modqueue_mass li a:hover {
+	background: #efefef;
+	border: 1px solid #ccc;
+	text-decoration: none;
+}]]>
+		</stylesheet>
+	</stylesheets>
+	<templates>
+		<template name="header" version="1608"><![CDATA[<a name="top" id="top"></a>{$welcomeblock}
+<div id="shadow">
+		<div id="container">
+			<h1><span class="invisible">{$mybb->settings['bbname']}</span></h1>
+
+			<div id="header">
+				<a class="link" href="{$mybb->settings['bburl']}"></a>
+<div id="header_download"><div><a href="#">لینک اول</a></div><div><a href="#">لینک دوم</a></div></div><div id="header_download2">ATM</div>
+			</div>
+
+					<ul class="msmenu">
+						<li class="active"><a href="{$mybb->settings['bburl']}/portal.php">سردر</a></li>
+						<li class="default"><a href="{$mybb->settings['bburl']}/index.php">انجمن</a></li>
+						<li class="default"><a href="{$mybb->settings['bburl']}/search.php">{$lang->toplinks_search}</a></li>
+						<li class="default"><a href="{$mybb->settings['bburl']}/misc.php?action=help">{$lang->toplinks_help}</a>
+<ul>
+<li><a href="{$mybb->settings['bburl']}/misc.php?action=help&hid=1">عضویت کاربر</a></li>
+<li><a href="{$mybb->settings['bburl']}/misc.php?action=help&hid=2">به روز رسانی پروفایل</a></li>
+<li><a href="{$mybb->settings['bburl']}/misc.php?action=help&hid=3">استفاده از کوکی‌ها</a></li>
+<li><a href="{$mybb->settings['bburl']}/misc.php?action=help&hid=4">ورود و خروج</a></li>
+</ul>
+</li>
+						<li class="default"><a href="http://my-bb.ir">سایت طراح</a></li>
+<div id="search" style="position:absolute;
+top:5px;
+left:10px;">
+					<form action="{$mybb->settings['bburl']}/search.php" method="post"><fieldset class="noborder"><label for="search_box"><span id="search_right"> </span></label><input name="keywords" id="search_box" title="واژه‌های کلیدی را وارد کنید" type="text" /><input value="جستجو" name="submit-search" id="search_button" type="submit" /><input type="hidden" name="action" value="do_search" /></fieldset></form>
+				</div>
+					</ul>
+<div id="panel">
+				<a href="{$mybb->settings['bburl']}/search.php?action=getnew">{$lang->welcome_newposts}</a> | <a href="{$mybb->settings['bburl']}/search.php?action=getdaily">{$lang->welcome_todaysposts}</a>
+				<span class="links" style="float:left;">
+					<a href="#" onclick="MyBB.popupWindow('{$mybb->settings['bburl']}/misc.php?action=buddypopup', 'buddyList', 350, 350);">{$lang->welcome_open_buddy_list}</a>
+				</span>
+			<br />
+<br />
+
+<div style="clear:both;line-height:0px;"></div>
+			</div>
+		<hr class="hidden" />
+		<br class="clear" />
+		<div id="content">
+			{$pm_notice}
+			{$bannedwarning}
+			{$bbclosedwarning}
+			{$unreadreports}
+ {$headerannounce}<!-- ProfileComments -->
+			{$commentalert}<!-- /ProfileComments -->
+			{$pending_joinrequests}
+			<navigation>
+			<br />]]></template>
+		<template name="nav" version="1606"><![CDATA[<div class="navigation" style="text-align:right;">
+{$nav}{$activesep}{$activebit}
+</div>]]></template>
+		<template name="forumbit_subforums" version="1606"><![CDATA[<br/>{$lang->subforums}<br /><ul class="alt_forumlar">{$sub_forums}</ul>]]></template>
+		<template name="forumbit_depth3" version="1606"><![CDATA[<div style="float:right; width:50%; overflow:hidden;">{$statusicon} <a href="{$forum_url}" title="{$forum_viewers_text}">{$forum['name']}</a> <span dir="rtl" style="color: rgb(153, 153, 153);" title="(موضوع،ارسال)">({$forum['posts']}،{$forum['threads']})</span></div>]]></template>
+		<template name="header_welcomeblock_member" version="1608"><![CDATA[<div class="panel_mybb"><span style="float:left;">{$lang->welcome_current_time}</span>
+&nbsp;&nbsp;&nbsp;{$lang->welcome_back} (<a href="{$mybb->settings['bburl']}/usercp.php"><strong>{$lang->welcome_usercp}</strong></a>{$modcplink}{$admincplink} | <a href="{$mybb->settings['bburl']}/private.php">{$lang->welcome_pms}</a> {$lang->welcome_pms_usage} | <a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}">{$lang->welcome_logout}</a>)
+</div>]]></template>
+		<template name="footer" version="1608"><![CDATA[<br />		
+<div><table border="0" cellspacing="1" cellpadding="4" class="tborder" style="margin-bottom:5px;"><tr><td width="35%" class="thead">علاقه مندی ها</td><td width="45%" class="thead">درباره ما</td><td width="20%" class="thead">امکانات وبسایت</td></tr></table></div>
+<div><table border="0" cellspacing="1" cellpadding="4" class="tborder" style="margin-bottom:5px;"><tr><td width="35%" class="alt1 msfont2">
+<div style="float:right;"> <img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_1.png"> &nbsp; <a href="http://www.facebook.com/share.php?u={$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_2.png"></a> &nbsp; <a href="http://twitter.com/home?status=Browsing:%20{$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_3.png"></a> <br> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t={$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_4.png"></a> &nbsp; <a href="{$mybb->settings['bburl']}/misc.php?action=syndication"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_5.png"></a> </div>
+</td><td width="45%" class="alt1 msfont2">
+طراحی قالب توسط: <a href="http://my-bb.ir" target="_blank">AliReza_Tofighi</a><br />
+{$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
+</td><td width="20%" class="alt1 msfont2">
+<a href="{$mybb->settings['contactlink']}">تماس با ما</a><br />
+<a href="#top">بازگشت به بالا</a><br />
+<a href="{$mybb->settings['bburl']}/archive/index.php">حالت آرشیو</a><br />
+</td></tr></table></div>
+
+
+</div>
+		</div>]]></template>
+		<template name="index" version="1608"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']}</title>
+{$headerinclude}
+<script type="text/javascript">
+<!--
+	lang.no_new_posts = "{$lang->no_new_posts}";
+	lang.click_mark_read = "{$lang->click_mark_read}";
+// -->
+</script>
+</head>
+<body>
+{$header}
+{$IC_TopThreadStarters_H}
+{$IC_ToppostStarters_H}
+
+{$forums}
+{$changstats}
+<br />
+{$boardstats}
+<br style="clear: both" />
+{$stcp_index}{$footer}
+</body>
+</html>]]></template>
+		<template name="index_boardstats" version="1608"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<thead>
+<tr>
+<td class="thead">
+<div class="expcolimage"><img src="{$theme['imgdir']}/collapse{$collapsedimg['boardstats']}.gif" id="boardstats_img" class="expander" alt="[-]" title="[-]" /></div>
+<img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/statistics.png" style="margin-bottom: -21px;margin-top: -20px;margin-right: -10px;margin-left: 10px;" />
+<div style="margin-right: 60px;"><strong>{$lang->boardstats}</strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="{$collapsed['boardstats_e']}" id="boardstats_e">
+{$whosonline}
+{$birthdays}
+{$forumstats}
+
+<tr><td class="alt1">
+<div class="msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/legend.png" alt="my-bb.ir-AliReza-Tofighi" /> <strong>راهنمای آیکون های سایت</strong></div>
+<dl class="forum_legend smalltext" style="margin-right:20px;">
+	<div style="padding-bottom:5px;"><dt><img src="{$theme['imgdir']}/minion.gif" alt="{$lang->new_posts}" title="{$lang->new_posts}" style="vertical-align: middle;" /></dt>
+	<dd>{$lang->new_posts}</dd><br /></div>
+
+<div style="padding-bottom:5px;"><dt><img src="{$theme['imgdir']}/minioff.gif" alt="{$lang->no_new_posts}" title="{$lang->no_new_posts}"  style="vertical-align: middle;" /></dt>
+	<dd>{$lang->no_new_posts}</dd><br /></div>
+
+	<div style="padding-bottom:5px;"><dt><img src="{$theme['imgdir']}/miniofflock.gif" alt="{$lang->forum_locked}" title="{$lang->forum_locked}"  style="vertical-align: middle;" /></dt>
+	<dd>{$lang->forum_locked}</dd></div>
+</dl>
+
+<table class="forum" style="width:400px;float:left;">
+<tr>
+	<td style="text-align: center;">
+		<span class="smalltext">
+			{$logoutlink}
+			<a href="misc.php?action=markread{$post_code_string}">{$lang->markread}</a> |
+			<a href="showteam.php">{$lang->forumteam}</a> |
+			<a href="stats.php">{$lang->forumstats}</a>
+		</span>
+	</td>
+</tr></table>
+</td></tr>
+</tbody>
+</table>
+<br />]]></template>
+		<template name="header_welcomeblock_guest" version="1608"><![CDATA[<form method="post" action="member.php">
+<div class="panel_mybb">
+<span style="float: left;">{$lang->welcome_current_time}</span>
+&nbsp;&nbsp;&nbsp;<input type="hidden" name="action" value="do_login" />
+<script type="text/javascript">
+document.write('<input name="url" type="hidden" value="'+document.location.href+'" />');
+</script>
+{$lang->username}&nbsp;<input type="text" class="textbox" name="username" value="" />&nbsp;&nbsp;
+{$lang->password}&nbsp;<input type="password" class="textbox" name="password" value="" />&nbsp;&nbsp;
+<label title="{$lang->remember_me_desc}"><input type="checkbox" class="checkbox" name="remember" checked="checked" value="yes" /> {$lang->remember_me}</label>&nbsp;&nbsp;
+<input type="submit" class="button" name="loginsubmit" value="{$lang->login}" /> &nbsp;&nbsp; <input type="button" class="button" value="ثبت نام" onclick="window.location='{$mybb->settings['bburl']}/member.php?action=register'" />
+</div></form>]]></template>
+		<template name="nav_sep_active" version="1606"><![CDATA[<br /><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/nav_bit.gif" />]]></template>
+		<template name="postbit" version="1608"><![CDATA[{$ignore_bit}
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="{$post_extra_style} {$post_visibility}" id="post_{$post['pid']}"><tr>
+            <td class="tcat" width="210px"><span class="smalltext"><strong>{$lang->author}</strong></span></td>
+            <td class="tcat"><span class="smalltext"><strong>{$lang->message}</strong></span></td>
+        </tr>
+	<tr>
+		<td class="{$altbg}" width="210px" valign="top" style="style="white-space: wrap; text-align: center;"><a name="pid{$post['pid']}" id="pid{$post['pid']}"></a>
+		<style>
+    <!--
+.mr-abdollah{
+ text-shadow:2px 1px white !important;color :#6d685e;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;border-left:0px solid #dbe1e6;border-right:0px solid #731a8b;
+     border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;text-shadow:#b2b2b2 0 0 7px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfdfd), to(#eaf1db)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+    background: -o-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+     border-color:#DDDDDD #DDDDDD #C4C4C4 #C4C4C4;
+     -moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);
+border-top:2px solid #6B8E23;border-bottom:2px solid #6B8E23;
+     direction:rtl;
+     font-family:Tahoma;
+     font-size:11px;
+     margin:4px 7px;
+     padding:5px;
+     text-align:center;
+    }
+
+.mr-abdollah:hover{
+ }
+.mybbir_logo{
+ background:url(LOGO_URL) no-repeat top left;
+ }
+
+
+.postbit-avatar {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+	background-color: #DDDDDD;
+	border: 1px solid #BEBEBE;
+	padding: 4px;
+	margin: 8px;
+}
+
+.postbit-avatar:hover {
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+    -->
+</style>
+
+    <div style="text-align:center;" class="username"><strong><span class="largetext"><a href="#" id="profilelink_{$post['pid']}">{$post['username_formatted']}</span></strong>
+<div id="profilelink_{$post['pid']}_popup" class="popup_menu" style="display: none;">
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/member.php?action=profile&amp;uid={$post['uid']}" class="popup_item">مشاهده پروفایل کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/search.php?action=finduser&amp;uid={$post['uid']}" class="popup_item">مشاهده ارسال های کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/search.php?action=finduserthreads&uid={$post['uid']}" class="popup_item">مشاهده موضوعات کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$post['website']}" target="_blank" " class="popup_item">مشاهده وب سایت کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/private.php?action=send&amp;uid={$post['uid']}" class="popup_item">ارسال پیام خصوصی به کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/member.php?action=emailuser&amp;uid={$post['uid']}" class="popup_item">ارسال ایمیل به کاربر</a>
+</div>
+</div></a>
+<br />
+<script language="javascript" type="text/javascript">
+new PopupMenu("profilelink_{$post['pid']}");
+</script> </div>        
+    <div style="text-align:center;"><font color="#339933">{$post['usertitle']}</div>
+    <div style="text-align:center;"><font color="#000000">{$post['userstars']}</div>
+    <div style="text-align:center;">{$post['useravatar']}</div>
+    <div style="text-align:center;">{$post['groupimage']}<br></div>
+    <div class="mr-abdollah"><div class="mybbir_logo"><div style="margin: 0px 22px;"><font color="#339933"><a href="search.php?action=finduser&amp;uid={$post['uid']}">يافتن تمام ارسالهای این کاربر</a></font></div></div></div>
+    <div class="mr-abdollah"><div class="mybbir_logo"><div style="margin: 0px 20px;"><font color="#339933">وضعیت : {$post['onlinestatus']}</font></div></div></div>
+<div class="mr-abdollah"><fieldset class="fieldset"><legend><b><strong><font color="#339933">دستاوردهای من
+</font></strong></b></legend>
+{$post['awards']}
+</fieldset></div> 
+       </strong>
+    <div class="mr-abdollah"><font color="#339933">{$post['user_details']}</font></div>
+
+       </span>
+	</td>
+	<td class="{$altbg}" valign="top">
+		<table width="100%">
+			<tr><td>{$post['posturl']}<span class="smalltext"><strong>{$post['icon']}{$post['subject']} {$post['subject_extra']}</strong></span>
+			<br />
+			<div id="pid_{$post['pid']}" style="padding: 5px 0 5px 0;">
+				{$post['message']}
+			</div>
+			{$post['attachments']}
+			{$post['signature']}
+			<div style="text-align: right; vertical-align: bottom;" id="post_meta_{$post['pid']}">
+				<div id="edited_by_{$post['pid']}">{$post['editedmsg']}</div>
+				{$post['iplogged']}
+			</div>
+		</td></tr>
+	</table>
+</td>
+</tr>
+<tr>
+	<td class="{$altbg}" style="white-space: nowrap; text-align: center; vertical-align: middle;"><span class="smalltext">{$post['postdate']} {$post['posttime']}</span></td>
+	<td class="{$altbg}" style="vertical-align: middle;">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr valign="bottom">
+				<td align="right" ><span class="smalltext">{$post['button_email']}{$post['button_pm']}{$post['button_www']}{$post['button_find']}{$post['button_rep']}</span></td>
+			 <td align="left">{$post['button_spam']}{$post['button_edit']}{$post['button_quickdelete']}{$post['button_quote']}{$post['thanks']}{$post['button_multiquote']}{$post['button_report']}{$post['button_warn']}{$post['button_reply_pm']}{$post['button_replyall_pm']}{$post['button_forward_pm']}{$post['button_delete_pm']}<div style='float:right'>
+<g:plusone size="standard" expr:href="data:post.url"/>
+</div></td>
+			</tr>
+		</table>
+	</td>
+</tr>{$post['thxdsp_inline']}
+
+</table>{$post['thxdsp_outline']}]]></template>
+		<template name="index_birthdays" version="1608"><![CDATA[<tr><td class="alt1"><strong>{$lang->todays_birthdays}</strong></div>
+<span class="smalltext">{$bdays}</span></td>
+</tr>]]></template>
+		<template name="index_stats" version="1608"><![CDATA[<tr><td class="alt1"><div class="msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/forum_stats.png" alt="mybbir-AliReza-Tofighi" /> <strong>آمار و ارقام {$mybb->settings['bbname']}</strong></div><div class="smalltext msfont" style="margin-right:20px;">
+{$lang->stats_posts_threads}<br />
+{$lang->stats_numusers}<br />
+{$lang->stats_newestuser}<br />
+{$lang->stats_mostonline}
+</div>
+</td></tr>]]></template>
+		<template name="forumdisplay" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$foruminfo['name']} </title>
+{$headerinclude}
+{$rssdiscovery}
+<script type="text/javascript">
+<!--
+	lang.no_new_posts = "{$lang->no_new_posts}";
+	lang.click_mark_read = "{$lang->click_mark_read}";
+// -->
+</script>
+</head>
+<body>
+{$header}
+{$moderatedby}
+{$usersbrowsing}{$stcp_forumdisplay}
+{$rules}
+{$subforums}
+{$threadslist}
+{$footer}
+</body>
+</html>]]></template>
+		<template name="index_whosonline" version="1608"><![CDATA[<tr><td class="alt1"><div>
+<div class="smalltext msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/users_online.png" alt="mybbir-AliReza-Tofighi" /> <strong>{$lang->whos_online}</strong> [<a href="online.php">{$lang->complete_list}</a>]</div>
+<div class="smalltext" style="margin-right:20px;">{$lang->online_note}<br />{$onlinemembers}</div></td>
+</div>
+</td></tr>]]></template>
+		<template name="postbit_classic" version="1608"><![CDATA[{$ignore_bit}
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="{$post_extra_style} {$post_visibility}" id="post_{$post['pid']}"><tr>
+            <td class="tcat" width="210px"><span class="smalltext"><strong>{$lang->author}</strong></span></td>
+            <td class="tcat"><span class="smalltext"><strong>{$lang->message}</strong></span></td>
+        </tr>
+	<tr>
+		<td class="{$altbg}" width="210px" valign="top" style="style="white-space: wrap; text-align: center;"><a name="pid{$post['pid']}" id="pid{$post['pid']}"></a>
+		<style>
+    <!--
+.mr-abdollah{
+ text-shadow:2px 1px white !important;color :#6d685e;-webkit-transition:all 0.3s ease-in;-moz-transition:all 0.3s ease-in;-o-transition:all 0.3s ease-in;border-left:0px solid #dbe1e6;border-right:0px solid #731a8b;
+     border-radius:7px;-moz-border-radius:7px;-webkit-border-radius:7px;text-shadow:#b2b2b2 0 0 7px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfdfd), to(#eaf1db)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+    background: -o-linear-gradient(top,  #fbfdfd, #eaf1db); /* for firefox 3.6+ */
+     border-color:#DDDDDD #DDDDDD #C4C4C4 #C4C4C4;
+     -moz-box-shadow:0 0 8px rgba(0, 0, 0, 0.3);
+border-top:2px solid #6B8E23;border-bottom:2px solid #6B8E23;
+     direction:rtl;
+     font-family:Tahoma;
+     font-size:11px;
+     margin:4px 7px;
+     padding:5px;
+     text-align:center;
+    }
+
+.mr-abdollah:hover{
+ }
+.mybbir_logo{
+ background:url(LOGO_URL) no-repeat top left;
+ }
+
+
+.postbit-avatar {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px
+	background-color: #DDDDDD;
+	border: 1px solid #BEBEBE;
+	padding: 4px;
+	margin: 8px;
+}
+
+.postbit-avatar:hover {
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+    -->
+</style>
+
+    <div style="text-align:center;" class="username"><strong><span class="largetext"><a href="#" id="profilelink_{$post['pid']}">{$post['username_formatted']}</span></strong>
+<div id="profilelink_{$post['pid']}_popup" class="popup_menu" style="display: none;">
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/member.php?action=profile&amp;uid={$post['uid']}" class="popup_item">مشاهده پروفایل کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/search.php?action=finduser&amp;uid={$post['uid']}" class="popup_item">مشاهده ارسال های کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/search.php?action=finduserthreads&uid={$post['uid']}" class="popup_item">مشاهده موضوعات کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$post['website']}" target="_blank" " class="popup_item">مشاهده وب سایت کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/private.php?action=send&amp;uid={$post['uid']}" class="popup_item">ارسال پیام خصوصی به کاربر</a>
+</div>
+<div class="popup_item_container">
+<a href="{$mybb->settings['bburl']}/member.php?action=emailuser&amp;uid={$post['uid']}" class="popup_item">ارسال ایمیل به کاربر</a>
+</div>
+</div></a>
+<br />
+<script language="javascript" type="text/javascript">
+new PopupMenu("profilelink_{$post['pid']}");
+</script> </div>        
+    <div style="text-align:center;"><font color="#339933">{$post['usertitle']}</div>
+    <div style="text-align:center;"><font color="#000000">{$post['userstars']}</div>
+    <div style="text-align:center;">{$post['useravatar']}</div>
+    <div style="text-align:center;">{$post['groupimage']}<br></div>
+    <div class="mr-abdollah"><div class="mybbir_logo"><div style="margin: 0px 22px;"><font color="#339933"><a href="search.php?action=finduser&amp;uid={$post['uid']}">يافتن تمام ارسالهای این کاربر</a></font></div></div></div>
+    <div class="mr-abdollah"><div class="mybbir_logo"><div style="margin: 0px 20px;"><font color="#339933">وضعیت : {$post['onlinestatus']}</font></div></div></div>
+<div class="mr-abdollah"><fieldset class="fieldset"><legend><b><strong><font color="#339933">دستاوردهای من
+</font></strong></b></legend>
+{$post['awards']}
+</fieldset></div> 
+       </strong>
+    <div class="mr-abdollah"><font color="#339933">{$post['user_details']}</font></div>
+
+       </span>
+	</td>
+	<td class="{$altbg}" valign="top">
+		<table width="100%">
+			<tr><td>{$post['posturl']}<span class="smalltext"><strong>{$post['icon']}{$post['subject']} {$post['subject_extra']}</strong></span>
+			<br />
+			<div id="pid_{$post['pid']}" style="padding: 5px 0 5px 0;">
+				{$post['message']}
+			</div>
+			{$post['attachments']}
+			{$post['signature']}
+			<div style="text-align: right; vertical-align: bottom;" id="post_meta_{$post['pid']}">
+				<div id="edited_by_{$post['pid']}">{$post['editedmsg']}</div>
+				{$post['iplogged']}
+			</div>
+		</td></tr>
+	</table>
+</td>
+</tr>
+<tr>
+	<td class="{$altbg}" style="white-space: nowrap; text-align: center; vertical-align: middle;"><span class="smalltext">{$post['postdate']} {$post['posttime']}</span></td>
+	<td class="{$altbg}" style="vertical-align: middle;">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr valign="bottom">
+				<td align="right" ><span class="smalltext">{$post['button_email']}{$post['button_pm']}{$post['button_www']}{$post['button_find']}{$post['button_rep']}</span></td>
+			 <td align="left">{$post['button_spam']}{$post['button_edit']}{$post['button_quickdelete']}{$post['button_quote']}{$post['thanks']}{$post['button_multiquote']}{$post['button_report']}{$post['button_warn']}{$post['button_reply_pm']}{$post['button_replyall_pm']}{$post['button_forward_pm']}{$post['button_delete_pm']}<div style='float:right'>
+<g:plusone size="standard" expr:href="data:post.url"/>
+</div></td>
+			</tr>
+		</table>
+	</td>
+</tr>{$post['thxdsp_inline']}
+
+</table>{$post['thxdsp_outline']}]]></template>
+		<template name="headerinclude" version="1608"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/prototype.js?ver=1603"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/general.js?ver=1603"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/popup_menu.js?ver=1600"></script>
+{$stylesheets}
+<script type="text/javascript">
+<!--
+	var cookieDomain = "{$mybb->settings['cookiedomain']}";
+	var cookiePath = "{$mybb->settings['cookiepath']}";
+	var cookiePrefix = "{$mybb->settings['cookieprefix']}";
+	var deleteevent_confirm = "{$lang->deleteevent_confirm}";
+	var removeattach_confirm = "{$lang->removeattach_confirm}";
+	var loading_text = '{$lang->ajax_loading}';
+	var saving_changes = '{$lang->saving_changes}';
+	var use_xmlhttprequest = "{$mybb->settings['use_xmlhttprequest']}";
+	var my_post_key = "{$mybb->post_code}";
+	var imagepath = "{$theme['imgdir']}";
+// -->
+</script>]]></template>
+		<template name="misc_smilies_popup_smilie" version="1606"><![CDATA[<td class="{$class}" align="center"><img src="{$smilie['image']}" alt="{$smilie['find']}" title="{$smilie['find']}" onclick="insertSmilie('{$smilie['insert']}');" /></a></td>
+<td class="{$class}">{$smilie['find']}</td>]]></template>
+		<template name="misc_smilies_popup" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->smilies_listing}</title>
+{$headerinclude}
+<script type="text/javascript">
+<!--
+	var editor = eval('opener.' + '{$editor}');
+	function insertSmilie(code)
+	{
+		if(editor)
+		{
+			editor.performInsert(code, "", true, false);
+		}
+	}
+// -->
+</script>
+
+</head>
+<body>
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead" colspan="4"><strong>{$lang->smilies_listing}</strong></td>
+</tr>
+<tr>
+<td class="tcat" colspan="4"><span class="smalltext">{$lang->click_to_add}</span></td>
+</tr>
+{$smilies}
+<tr>
+<td class="thead" colspan="4" align="center"><span class="smalltext">[<a href="javascript:window.close();">{$lang->close_window}</a>]</span></td>
+</tr>
+</table>
+</body>
+</html>]]></template>
+		<template name="private_send" version="1606"><![CDATA[<html>
+<head>
+<title>{$lang->compose_pm}</title>
+{$headerinclude}
+<script type="text/javascript" src="jscripts/usercp.js?ver=1600"></script>
+</head>
+<body>
+{$header}
+<form action="private.php" method="post" name="input"                                           >
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<table width="100%" border="0" align="center">
+<tr>
+{$usercpnav}
+<td valign="top">
+{$preview}
+{$send_errors}
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead" colspan="2"><strong>{$lang->compose_pm}</strong></td>
+</tr>
+<tr>
+<td class="trow1" valign="top" width="200"><strong>{$lang->compose_to}</strong>
+	<script type="text/javascript">
+	<!--
+		document.write('(<a href="#" onclick="showBcc(); return false;" title="{$lang->compose_bcc_show_title}">{$lang->compose_bcc_show}<\/a>)');
+	// -->
+	</script>
+	<br /><span class="smalltext">{$lang->separate_names}{$buddy_select_to}</span></td>
+<td class="trow1" valign="top"><textarea name="to" id="to" rows="2" cols="38" tabindex="1">{$to}</textarea>{$max_recipients}</td>
+</tr>
+<tr id="bcc_area">
+<td class="trow2" valign="top"><strong>{$lang->compose_bcc}</strong>{$buddy_select_bcc}</td>
+<td class="trow2"><textarea name="bcc" id="bcc" rows="2" cols="38" tabindex="1">{$bcc}</textarea></td>
+</tr>
+<tr>
+<td class="trow1"><strong>{$lang->compose_subject}</strong></td>
+<td class="trow1"><input type="text" class="textbox" name="subject" size="40" maxlength="85" value="{$subject}" tabindex="3" /></td>
+</tr>
+{$posticons}
+<tr>
+<td class="trow2" valign="top"><strong>{$lang->compose_message}</strong>{$smilieinserter}</td>
+<td class="trow2">
+<textarea name="message"                                            id="message" rows="20" cols="90" tabindex="4">{$message}</textarea>{$codebuttons}
+
+</td>
+</tr>
+<tr>
+<td class="trow1" valign="top"><strong>{$lang->compose_options}</strong></td>
+<td class="trow1"><span class="smalltext">
+<label><input type="checkbox" class="checkbox" name="options[signature]" value="1" tabindex="5" {$optionschecked['signature']} />{$lang->options_sig}</label><br />
+<label><input type="checkbox" class="checkbox" name="options[disablesmilies]" value="1" tabindex="6" {$optionschecked['disablesmilies']} />{$lang->options_disable_smilies}</label><br />
+<label><input type="checkbox" class="checkbox" name="options[savecopy]" value="1" tabindex="7" {$optionschecked['savecopy']} />{$lang->options_save_copy}</label><br />
+<label><input type="checkbox" class="checkbox" name="options[readreceipt]" value="1" tabindex="8" {$optionschecked['readreceipt']} />{$lang->options_read_receipt}</label><br />
+</span></td>
+</tr>
+</table>
+<br />
+<input type="hidden" name="action" value="do_send" />
+<input type="hidden" name="pmid" value="{$pmid}" />
+<input type="hidden" name="do" value="{$do}" />
+<div style="text-align: center;">
+<input type="submit" class="button" name="submit" value="{$lang->send_message}" tabindex="9" accesskey="s" />
+<input type="submit" class="button" name="saveasdraft" value="{$lang->save_draft}" tabindex="10" />
+<input type="submit" class="button" name="preview" value="{$lang->preview}" tabindex="11" />
+</div>
+</td>
+</tr>
+</table>
+</form>
+{$footer}
+<script type="text/javascript">
+<!--
+	if($('bcc_area') && $('bcc').value == "")
+	{
+		$('bcc_area').style.display = 'none';
+	}
+
+	function showBcc()
+	{
+		if($('bcc_area').style.display == 'none')
+		{
+			$('bcc_area').style.display = '';
+		}
+		else
+		{
+			$('bcc_area').style.display = 'none';
+		}
+	}
+// -->
+</script>
+{$autocompletejs}
+</body>
+</html>]]></template>
+		<template name="postbit_author_user" version="1608"><![CDATA[<fieldset>
+<legend><strong>اطلاعات من</strong></legend>
+{$lang->postbit_posts} {$post['postnum']}<br />
+	{$lang->postbit_joined} {$post['userregdate']}
+	{$post['replink']}{$post['warninglevel']}</fieldset><br />
+<fieldset>
+<legend><strong>اطلاعات انجمن</strong></legend>
+نسخه: <strong><b><span style="color:#339933;">{$post['fid4']}</span></b></strong>
+{MyInForumInfo}
+</fieldset><br />
+<fieldset>
+ <legend><strong>سایت من</strong></legend>
+ <marquee scrollamount="3" scrolldelay="20" style="border:1px solid #1b7a1b;font-family: Tahoma;font-size: 8pt;color: #339933"direction="right" width="100%" height="20"onmouseover="this.stop()"onmouseout="this.start()"><font color=black></font>{$post['website']}</marquee>
+ </fieldset><br>]]></template>
+		<template name="modcp_editprofile" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->edit_profile}</title>
+{$headerinclude}
+<script type="text/javascript">
+<!--
+	var mod_posts = '{$modpost_check}';
+	var susp_posts = '{$suspost_check}';
+// -->
+</script>
+</head>
+<body>
+	{$header}
+	<form action="modcp.php" method="post">
+		<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+		<table width="100%" border="0" align="center">
+			<tr>
+				{$modcp_nav}
+				<td valign="top">
+					{$errors}
+					<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+						<tr>
+							<td class="thead" colspan="2"><strong>{$lang->edit_profile}</strong></td>
+						</tr>
+						<tr>
+							<td width="50%" class="trow1" valign="top">
+								<fieldset class="trow2">
+									<legend><strong>{$lang->profile_required}</strong></legend>
+									<table cellspacing="0" cellpadding="{$theme['tablespace']}">
+										<tr>
+											<td><span class="smalltext">{$lang->current_username}</span></td>
+										</tr>
+										<tr>
+											<td><strong>{$profile_link}</strong></td>
+										</tr>
+										{$requiredfields}
+									</table>
+								</fieldset>
+								<br />
+								<fieldset class="trow2">
+									<legend><strong>{$lang->profile_optional}</strong></legend>
+									<table cellspacing="0" cellpadding="{$theme['tablespace']}">
+										<tr>
+											<td colspan="3"><span class="smalltext"><label><input type="checkbox" class="checkbox" name="remove_avatar" value="1" /> {$lang->remove_avatar}</label></span></td>
+										</tr><tr><td colspan="3"><span class="smalltext"><label><input type="checkbox" class="checkbox" name="remove_profilepic" value="1" /> {$lang->remove_profile_picture}</label></span></td></tr>
+
+										<tr>
+											<td colspan="3"><span class="smalltext">{$lang->birthday}</span></td>
+										</tr>
+										<tr>
+											<td>
+												<select name="birthday_day">
+													<option value="">&nbsp;</option>
+													{$bdaydaysel}
+												</select>
+											</td>
+											<td>
+												<select name="birthday_month">
+													<option value="">&nbsp;</option>
+													<option value="1" {$bdaymonthsel['1']}>{$lang->month_1}</option>
+													<option value="2" {$bdaymonthsel['2']}>{$lang->month_2}</option>
+													<option value="3" {$bdaymonthsel['3']}>{$lang->month_3}</option>
+													<option value="4" {$bdaymonthsel['4']}>{$lang->month_4}</option>
+													<option value="5" {$bdaymonthsel['5']}>{$lang->month_5}</option>
+													<option value="6" {$bdaymonthsel['6']}>{$lang->month_6}</option>
+													<option value="7" {$bdaymonthsel['7']}>{$lang->month_7}</option>
+													<option value="8" {$bdaymonthsel['8']}>{$lang->month_8}</option>
+													<option value="9" {$bdaymonthsel['9']}>{$lang->month_9}</option>
+													<option value="10" {$bdaymonthsel['10']}>{$lang->month_10}</option>
+													<option value="11" {$bdaymonthsel['11']}>{$lang->month_11}</option>
+													<option value="12" {$bdaymonthsel['12']}>{$lang->month_12}</option>
+												</select>
+											</td>
+											<td>
+												<input type="text" class="textbox" size="4" maxlength="4" name="birthday_year" value="{$mybb->input['birthday_year']}" />
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3"><span class="smalltext">{$lang->website_url}</span></td>
+										</tr>
+										<tr>
+											<td colspan="3"><input type="text" class="textbox" name="website" size="25" maxlength="75" value="{$mybb->input['website']}" /></td>
+										</tr>
+									</table>
+								</fieldset>
+								{$customfields}
+							</td>
+							<td width="50%" class="trow1" valign="top">
+								<fieldset class="trow2">
+									<legend><strong>{$lang->custom_usertitle}</strong></legend>
+									<table cellspacing="0" cellpadding="{$theme['tablespace']}">
+										<tr>
+											<td><span class="smalltext">{$lang->custom_usertitle_note}</span></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext">{$lang->default_usertitle}</span></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext"><strong>{$defaulttitle}</strong></span></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext">{$lang->current_custom_usertitle}</span></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext"><strong>{$user['usertitle']}</strong></span></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext">{$lang->new_custom_usertitle}</span></td>
+										</tr>
+										<tr>
+											<td><input type="text" class="textbox" name="usertitle" size="25" maxlength="{$mybb->settings['customtitlemaxlength']}" value="{$newtitle}" /></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext"><input type="checkbox" name="reverttitle" id="reverttitle" class="checkbox" /> {$lang->revert_usertitle}</span></td>
+										</tr>
+									</table>
+								</fieldset>
+								<br />
+								<fieldset class="trow2">
+									<legend><strong>{$lang->additional_contact_details}</strong></legend>
+									<table cellspacing="0" cellpadding="{$theme['tablespace']}">
+										<tr>
+											<td><span class="smalltext">{$lang->icq_number}</span></td>
+										</tr>
+										<tr>
+											<td><input type="text" class="textbox" name="icq" size="25" value="{$mybb->input['icq']}" /></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext">{$lang->aim_screenname}</span></td>
+										</tr>
+										<tr>
+											<td><input type="text" class="textbox" name="aim" size="25" value="{$mybb->input['aim']}" /></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext">{$lang->msn}</span></td>
+										</tr>
+										<tr>
+											<td><input type="text" class="textbox" name="msn" size="25" value="{$mybb->input['msn']}" /></td>
+										</tr>
+										<tr>
+											<td><span class="smalltext">{$lang->yahoo_id}</span></td>
+										</tr>
+										<tr>
+											<td><input type="text" class="textbox" name="yahoo" size="25" value="{$mybb->input['yahoo']}" /></td>
+										</tr>
+									</table>
+								</fieldset>
+								<br />
+								<fieldset class="trow2">
+									<legend><strong>{$lang->moderation}</strong></legend>
+									<table cellspacing="0" cellpadding="{$theme['tablespace']}" width="100%">
+										<tr>
+											<td>
+<dl style="margin-top: 0; margin-bottom: 0;">
+<dt><label><input type="checkbox" name="moderateposting" value="1" {$modpost_checked} class="checkbox" onclick="toggleSuspend('modposts');" id="modpost" /> {$lang->moderate_posts}</label></dt>
+<dd style="margin-top: 4px;" id="modposts_action">
+<table cellpadding="4">
+{$moderateposts_info}
+	<tr>
+		<td width="35%">{$lang->modpost_length}</td>
+		<td><input type="text" name="modpost_time" value="{$mybb->input['modpost_time']}" class="textbox" style="width: 2em;" /> {$modpost_options}</td>
+	</tr>
+</table>
+</dd>
+</dl>
+											</td>
+										</tr>
+										<tr>
+											<td>
+<dl style="margin-top: 0; margin-bottom: 0;">
+<dt><label><input type="checkbox" name="suspendposting" value="1" {$suspost_checked} class="checkbox" onclick="toggleSuspend('susposts');" id="suspost" /> {$lang->suspend_posts}</label></dt>
+<dd style="margin-top: 4px;" id="susposts_action">
+<table cellpadding="4">
+{$suspendposting_info}
+	<tr>
+		<td width="35%">{$lang->suspost_length}</td>
+		<td><input type="text" name="suspost_time" value="{$mybb->input['suspost_time']}" class="textbox" style="width: 2em;" /> {$suspost_options}</td>
+	</tr>
+</table>
+</dd>
+</dl></td>
+										</tr>
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="trow1" valign="top">
+								<fieldset class="trow1">
+									<legend><strong>{$lang->signature}</strong></legend>
+									<table cellspacing="0" cellpadding="{$theme['tablespace']}">
+<tr>
+<td class="trow1" width="80%">
+<textarea rows="15" cols="70" id="signature" name="signature">{$user['signature']}</textarea>
+{$codebuttons}
+</td>
+</tr>
+{$suspend_signature}
+									</table>
+								</fieldset>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="trow1" valign="top">
+								<fieldset class="trow2">
+									<legend><strong>{$lang->mod_notes}</strong></legend>
+									<textarea name="usernotes" id="usernotes" rows="10" cols="70">{$user['usernotes']}</textarea>
+								</fieldset>
+							</td>
+						</tr>
+					</table>
+					<br />
+					<div align="center">
+						<input type="hidden" name="action" value="do_editprofile" />
+						<input type="hidden" name="uid" value="{$user['uid']}" />
+						<input type="submit" class="button" value="{$lang->update_profile}" />
+					</div>
+				</td>
+			</tr>
+		</table>
+	</form>
+	{$footer}
+<script type="text/javascript">
+<!--
+	if(mod_posts == 0)
+	{
+		$('modposts_action').hide();
+	}
+
+	if(susp_posts == 0)
+	{
+		$('susposts_action').hide();
+	}
+
+	function toggleSuspend(action)
+	{
+		var item = action + "_action";
+
+		if(action == "modposts")
+		{
+			$('susposts_action').hide();
+			$('suspost').checked = false;
+
+			if($("modpost").checked == false)
+			{
+				$("modpost").checked = false;
+				$("modposts_action").hide();
+			}
+			else
+			{
+				$("modpost").checked = true;
+				$("modposts_action").show();
+			}
+		}
+
+		if(action == "susposts")
+		{
+			$('modposts_action').hide();
+			$('modpost').checked = false;
+
+			if($("suspost").checked == false)
+			{
+				$("suspost").checked = false;
+				$("susposts_action").hide();
+			}
+			else
+			{
+				$("suspost").checked = true;
+				$("susposts_action").show();
+			}
+		}
+	}
+// -->
+</script>
+</body>
+</html>]]></template>
+		<template name="private_read" version="1606"><![CDATA[<html>
+<head>
+<title>{$lang->viewing_pm} {$pm['subject']}</title>
+{$headerinclude}
+<script type="text/javascript" src="jscripts/fitonpage.js?ver=230"></script>
+<script type="text/javascript">
+<!--
+	var fitonpage_on = "{$mybb->settings['g33k_fitonpage_enabled']}";
+	var fitonpage_resize = "{$mybb->settings['g33k_fitonpage_resize']}";
+	var fitonpage_fluid = "{$mybb->settings['g33k_fitonpage_fluid']}";
+	var fitonpage_topbar_resized = "{$lang->fitonpage_topbar_resized}";
+	var fitonpage_topbar_full = "{$lang->fitonpage_topbar_full}";
+	var fitonpage_topbar_text_class = "{$mybb->settings['g33k_fitonpage_topbar_text_class']}";
+	var fitonpage_topbar_bground = "{$mybb->settings['g33k_fitonpage_topbar_bground']}";
+	var fitonpage_topbar_icon = "{$mybb->settings['g33k_fitonpage_topbar_icon']}";
+	var fitonpage_location = "private_read";
+-->
+</script>
+</head>
+<body>
+{$header}
+<table width="100%" border="0" align="center">
+<tr>
+{$usercpnav}
+<td valign="top">
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="clear: both; border-bottom-width: 0;">
+<tr>
+<td class="thead">
+<strong>{$pm['subject']}</strong>
+</td>
+</tr>
+{$action_time}
+{$message}
+</table>
+</td>
+</tr>
+</table>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="portal" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']}</title>
+{$headerinclude}
+<script type="text/javascript" src="jscripts/fitonpage.js?ver=230"></script>
+<script type="text/javascript">
+<!--
+	var fitonpage_on = "{$mybb->settings['g33k_fitonpage_enabled']}";
+	var fitonpage_resize = "{$mybb->settings['g33k_fitonpage_resize']}";
+	var fitonpage_fluid = "{$mybb->settings['g33k_fitonpage_fluid']}";
+	var fitonpage_topbar_resized = "{$lang->fitonpage_topbar_resized}";
+	var fitonpage_topbar_full = "{$lang->fitonpage_topbar_full}";
+	var fitonpage_topbar_text_class = "{$mybb->settings['g33k_fitonpage_topbar_text_class']}";
+	var fitonpage_topbar_bground = "{$mybb->settings['g33k_fitonpage_topbar_bground']}";
+	var fitonpage_topbar_icon = "{$mybb->settings['g33k_fitonpage_topbar_icon']}";
+	var fitonpage_location = "portal";
+-->
+</script>
+</head>
+<body>
+{$header}
+<table width="100%" cellspacing="0" cellpadding="{$theme['tablespace']}" border="0" align="center">
+<tr><td valign="top" width="200">
+{$welcome}
+{$pms}
+{$search}
+{$stats}
+{$whosonline}
+{$latestthreads}
+</td>
+<td>&nbsp;</td>
+<td valign="top">
+{$announcements}
+</td>
+</tr>
+</table>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="moderation_split" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->split_thread}</title>
+{$headerinclude}
+<script type="text/javascript" src="jscripts/fitonpage.js?ver=230"></script>
+<script type="text/javascript">
+<!--
+	var fitonpage_on = "{$mybb->settings['g33k_fitonpage_enabled']}";
+	var fitonpage_resize = "{$mybb->settings['g33k_fitonpage_resize']}";
+	var fitonpage_fluid = "{$mybb->settings['g33k_fitonpage_fluid']}";
+	var fitonpage_topbar_resized = "{$lang->fitonpage_topbar_resized}";
+	var fitonpage_topbar_full = "{$lang->fitonpage_topbar_full}";
+	var fitonpage_topbar_text_class = "{$mybb->settings['g33k_fitonpage_topbar_text_class']}";
+	var fitonpage_topbar_bground = "{$mybb->settings['g33k_fitonpage_topbar_bground']}";
+	var fitonpage_topbar_icon = "{$mybb->settings['g33k_fitonpage_topbar_icon']}";
+	var fitonpage_location = "mod_split";
+-->
+</script>
+</head>
+<body>
+{$header}
+<form action="moderation.php" method="post">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead" colspan="2"><strong>{$lang->split_thread}</strong></td>
+</tr>
+<tr>
+<td class="tcat" colspan="2"><span class="smalltext"><strong>{$lang->new_thread_info}</strong></span></td>
+</tr>
+{$loginbox}
+<tr>
+<td class="trow2"><strong>{$lang->new_subject}</strong></td>
+<td class="trow2"><input type="text" class="textbox" name="newsubject" value="{$lang->split_thread_subject} {$thread['subject']}" size="50" /></td>
+</tr>
+<tr>
+<td class="trow1"><strong>{$lang->new_forum}</strong></td>
+<td class="trow1">{$forumselect}</td>
+</tr>
+</table>
+<br />
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead" colspan="2"><strong>{$lang->posts_to_split}</strong></td>
+</tr>
+{$posts}
+</table>
+<br />
+<div align="center"><input type="submit" class="button" name="submit" value="{$lang->split_thread}" /></div>
+<input type="hidden" name="action" value="do_split" />
+<input type="hidden" name="tid" value="{$tid}" />
+</form>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="moderation_mergeposts" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->merge_posts}</title>
+{$headerinclude}
+<script type="text/javascript" src="jscripts/fitonpage.js?ver=230"></script>
+<script type="text/javascript">
+<!--
+	var fitonpage_on = "{$mybb->settings['g33k_fitonpage_enabled']}";
+	var fitonpage_resize = "{$mybb->settings['g33k_fitonpage_resize']}";
+	var fitonpage_fluid = "{$mybb->settings['g33k_fitonpage_fluid']}";
+	var fitonpage_topbar_resized = "{$lang->fitonpage_topbar_resized}";
+	var fitonpage_topbar_full = "{$lang->fitonpage_topbar_full}";
+	var fitonpage_topbar_text_class = "{$mybb->settings['g33k_fitonpage_topbar_text_class']}";
+	var fitonpage_topbar_bground = "{$mybb->settings['g33k_fitonpage_topbar_bground']}";
+	var fitonpage_topbar_icon = "{$mybb->settings['g33k_fitonpage_topbar_icon']}";
+	var fitonpage_location = "mod_mergeposts";
+-->
+</script>
+</head>
+<body>
+{$header}
+<form action="moderation.php" method="post">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder"><tr>
+<td class="thead" colspan="2"><strong>{$lang->merge_posts}</strong></td>
+</tr>
+<tr>
+<td class="trow1" colspan="2">{$lang->merge_posts_note}</td>
+</tr>
+<tr>
+<td class="tcat" colspan="2"><strong>{$lang->post_separator}</strong></td>
+</tr>
+<tr>
+<td class="trow2" colspan="2"><label><input type="radio" class="radio" name="sep" value="hr" checked="checked" /> {$lang->horizontal_rule}</label><br /><label><input type="radio" class="radio" name="sep" value="new_line" /> {$lang->new_line}</label></td>
+</tr>
+{$posts}
+</table>
+<br />
+<div align="center"><input type="submit" class="button" name="submit" value="{$lang->merge_posts}" /></div>
+<input type="hidden" name="action" value="do_mergeposts" />
+<input type="hidden" name="tid" value="{$tid}" />
+</form>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="moderation_deleteposts" version="1606"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->delete_posts}</title>
+{$headerinclude}
+<script type="text/javascript" src="jscripts/fitonpage.js?ver=230"></script>
+<script type="text/javascript">
+<!--
+	var fitonpage_on = "{$mybb->settings['g33k_fitonpage_enabled']}";
+	var fitonpage_resize = "{$mybb->settings['g33k_fitonpage_resize']}";
+	var fitonpage_fluid = "{$mybb->settings['g33k_fitonpage_fluid']}";
+	var fitonpage_topbar_resized = "{$lang->fitonpage_topbar_resized}";
+	var fitonpage_topbar_full = "{$lang->fitonpage_topbar_full}";
+	var fitonpage_topbar_text_class = "{$mybb->settings['g33k_fitonpage_topbar_text_class']}";
+	var fitonpage_topbar_bground = "{$mybb->settings['g33k_fitonpage_topbar_bground']}";
+	var fitonpage_topbar_icon = "{$mybb->settings['g33k_fitonpage_topbar_icon']}";
+	var fitonpage_location = "mod_deleteposts";
+-->
+</script>
+</head>
+<body>
+{$header}
+<form action="moderation.php" method="post">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead" colspan="2"><strong>{$lang->delete_posts}</strong></td>
+</tr>
+{$posts}
+</table>
+<br />
+<div align="center"><input type="submit" class="button" name="submit" value="{$lang->delete_selected_posts}" /></div>
+<input type="hidden" name="action" value="do_deleteposts" />
+<input type="hidden" name="tid" value="{$tid}" />
+</form>
+{$footer}
+</body>
+</html>]]></template>
+		<template name="forumdisplay_threadlist" version="1607"><![CDATA[<div class="float_right">
+	{$multipage}
+</div>
+<div class="float_left">
+	{$newthread}
+</div>
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="clear: both;">
+	<tr>
+		<td class="thead" colspan="{$colspan}">
+			<div style="float: left;">
+				<span class="smalltext"><strong><a href="misc.php?action=markread&amp;fid={$fid}{$post_code_string}">{$lang->markforum_read}</a> | <a href="usercp2.php?action={$add_remove_subscription}subscription&amp;type=forum&amp;fid={$fid}&amp;my_post_key={$mybb->post_code}">{$add_remove_subscription_text}</a>{$clearstoredpass}</strong></span>
+			</div>
+			<div>
+				<strong>{$foruminfo['name']}</strong>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td class="tcat" colspan="3" width="66%"><span class="smalltext"><strong><a href="{$sorturl}&amp;sortby=subject&amp;order=asc">{$lang->thread}</a> {$orderarrow['subject']} / <a href="{$sorturl}&amp;sortby=starter&amp;order=asc">{$lang->author}</a> {$orderarrow['starter']}</strong></span></td>
+		<td class="tcat" align="center" width="7%"><span class="smalltext"><strong><a href="{$sorturl}&amp;sortby=replies&amp;order=desc">{$lang->replies}</a> {$orderarrow['replies']}</strong></span></td>
+		<td class="tcat" align="center" width="7%"><span class="smalltext"><strong><a href="{$sorturl}&amp;sortby=views&amp;order=desc">{$lang->views}</a> {$orderarrow['views']}</strong></span></td>
+		{$ratingcol}
+		<td class="tcat" align="right" width="20%"><span class="smalltext"><strong><a href="{$sorturl}&amp;sortby=lastpost&amp;order=desc">{$lang->lastpost}</a> {$orderarrow['lastpost']}</strong></span></td>
+		{$inlinemodcol}
+	</tr>
+	{$selectall}
+	{$announcementlist}
+	{$threads}
+	<tr>
+		<td class="tfoot" align="right" colspan="{$colspan}">
+			<form action="forumdisplay.php" method="get">
+				<input type="hidden" name="selectall" value="{$allselected}" />
+				<input type="hidden" name="fid" value="{$fid}" />
+				<select name="sortby">
+					<option value="subject" {$sortsel['subject']}>{$lang->sort_by_subject}</option>
+					<option value="lastpost" {$sortsel['lastpost']}>{$lang->sort_by_lastpost}</option>
+					<option value="starter" {$sortsel['starter']}>{$lang->sort_by_starter}</option>
+					<option value="started" {$sortsel['started']}>{$lang->sort_by_started}</option>
+					{$ratingsort}
+					<option value="replies" {$sortsel['replies']}>{$lang->sort_by_replies}</option>
+					<option value="views" {$sortsel['views']}>{$lang->sort_by_views}</option>
+				</select>
+				<select name="order">
+					<option value="asc" {$ordersel['asc']}>{$lang->sort_order_asc}</option>
+					<option value="desc" {$ordersel['desc']}>{$lang->sort_order_desc}</option>
+				</select>
+				<select name="datecut">
+					<option value="1" {$datecutsel['1']}>{$lang->datelimit_1day}</option>
+					<option value="5" {$datecutsel['5']}>{$lang->datelimit_5days}</option>
+					<option value="10" {$datecutsel['10']}>{$lang->datelimit_10days}</option>
+					<option value="20" {$datecutsel['20']}>{$lang->datelimit_20days}</option>
+					<option value="50" {$datecutsel['50']}>{$lang->datelimit_50days}</option>
+					<option value="75" {$datecutsel['75']}>{$lang->datelimit_75days}</option>
+					<option value="100" {$datecutsel['100']}>{$lang->datelimit_100days}</option>
+					<option value="365" {$datecutsel['365']}>{$lang->datelimit_lastyear}</option>
+					<option value="9999" {$datecutsel['9999']}>{$lang->datelimit_beginning}</option>
+				</select>
+				{$gobutton}
+			</form>
+		</td>
+	</tr>
+</table>
+<div class="float_right">
+	{$multipage}
+</div>
+<div class="float_left" style="margin-top: 4px;">
+	{$newthread}
+</div>
+<br style="clear: both;" />
+<br />
+<div class="float_right">
+	<div class="float_right">
+		<dl class="thread_legend smalltext">
+			<dd><img src="{$theme['imgdir']}/newfolder.gif" alt="{$lang->new_thread}" title="{$lang->new_thread}" /> {$lang->new_thread}</dd>
+			<dd><img src="{$theme['imgdir']}/newhotfolder.gif" alt="{$lang->new_hot_thread}" title="{$lang->new_hot_thread}" /> {$lang->new_hot_thread}</dd>
+			<dd><img src="{$theme['imgdir']}/hotfolder.gif" alt="{$lang->hot_thread}" title="{$lang->hot_thread}" /> {$lang->hot_thread}</dd>
+		</dl>
+	</div>
+
+	<div class="float_right">
+		<dl class="thread_legend smalltext">
+			<dd><img src="{$theme['imgdir']}/folder.gif" alt="{$lang->no_new_thread}" title="{$lang->no_new_thread}" /> {$lang->no_new_thread}</dd>
+			<dd><img src="{$theme['imgdir']}/dot_folder.gif" alt="{$lang->posts_by_you}" title="{$lang->posts_by_you}" /> {$lang->posts_by_you}</dd>
+			<dd><img src="{$theme['imgdir']}/lockfolder.gif" alt="{$lang->locked_thread}" title="{$lang->locked_thread}" /> {$lang->locked_thread}</dd>
+		</dl>
+	</div>
+	<br style="clear: both" />
+</div>
+
+<div class="float_left" style="text-align: left;">
+	{$inlinemod}
+	{$searchforum}
+	{$forumjump}
+</div>
+<br style="clear: both" />
+{$inline_edit_js}]]></template>
+		<template name="showthread_search" version="1607"><![CDATA[<div class="float_left">
+		<form action="search.php" method="post">
+			<input type="hidden" name="action" value="thread" />
+			<input type="hidden" name="tid" value="{$thread['tid']}" />
+			<input type="text" name="keywords" value="{$lang->enter_keywords}" onfocus="if(this.value == '{$lang->enter_keywords}') { this.value = ''; }" onblur="if(this.value=='') { this.value='{$lang->enter_keywords}'; }" class="textbox" size="25" />
+			<input type="submit" class="button" value="{$lang->search_thread}" />
+		</form>
+	</div>]]></template>
+		<template name="postbit_signature" version="1608"><![CDATA[<div id="sing"><div class="sing">{$post['signature']}</div></div>]]></template>
+		<template name="showthread_ratethread" version="1607"><![CDATA[<div style="margin-top: 6px; padding-left: 10px;" class="float_left">
+		<script type="text/javascript" src="jscripts/rating.js?ver=1400"></script>
+		<div id="success_rating_{$thread['tid']}" style="float: left; padding-top: 2px; padding-right: 10px;">&nbsp;</div>
+		<strong style="float: right; padding-left: 10px;">{$lang->thread_rating}</strong>
+		<div class="inline_rating">
+			<ul class="star_rating{$not_rated}" id="rating_thread_{$thread['tid']}">
+				<li style="width: {$thread['width']}%" class="current_rating" id="current_rating_{$thread['tid']}">{$ratingvotesav}</li>
+				<li><a class="one_star" title="{$lang->one_star}" href="./ratethread.php?tid={$thread['tid']}&amp;rating=1&amp;my_post_key={$mybb->post_code}">1</a></li>
+				<li><a class="two_stars" title="{$lang->two_stars}" href="./ratethread.php?tid={$thread['tid']}&amp;rating=2&amp;my_post_key={$mybb->post_code}">2</a></li>
+				<li><a class="three_stars" title="{$lang->three_stars}" href="./ratethread.php?tid={$thread['tid']}&amp;rating=3&amp;my_post_key={$mybb->post_code}">3</a></li>
+				<li><a class="four_stars" title="{$lang->four_stars}" href="./ratethread.php?tid={$thread['tid']}&amp;rating=4&amp;my_post_key={$mybb->post_code}">4</a></li>
+				<li><a class="five_stars" title="{$lang->five_stars}" href="./ratethread.php?tid={$thread['tid']}&amp;rating=5&amp;my_post_key={$mybb->post_code}">5</a></li>
+			</ul>
+		</div>
+</div>]]></template>
+		<template name="online_row" version="1607"><![CDATA[<tr>
+<td class="trow1">{$online_name}{$user_ip}</td>
+<td align="center" class="trow2">{$online_time}</td>
+<td class="trow1" width="50%">{$location}</td>
+</tr>]]></template>
+		<template name="member_emailuser" version="1607"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->email_user}</title>
+{$headerinclude}
+</head>
+<body>
+{$header}
+{$errors}
+<form action="member.php" method="post" name="input">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td colspan="2" width="100%" class="thead"><strong>{$lang->email_user}</strong></td>
+</tr>
+<tr>
+<td width="40%" class="trow2"><strong>{$lang->email_subject}</strong></td>
+<td width="60%" class="trow2"><input type="text" class="textbox" size="50" name="subject" value="{$subject}" /></td>
+</tr>
+<tr>
+<td valign="top" width="40%" class="trow1"><strong>{$lang->email_message}</strong></td>
+<td width="60%" class="trow1"><textarea cols="50" rows="10" name="message" id="message">{$message}</textarea></td>
+<link type="text/css" rel="stylesheet" href="jscripts/wysiwyg_themes/default/ui.css" />
+<script type="text/javascript" src="jscripts/wysiwyg.js"></script>
+<script type="text/javascript">
+// language
+var language = new Object();
+language['undo.desc'] = "حرکت قبل";language['redo.desc'] = "حرکت بعد";
+language['b.desc'] = "نوشته ضخیم";language['i.desc'] = "نوشته مورب";language['u.desc'] = "نوشته زیر خط دار";language['s.desc'] = "نوشته رو خط دار";
+language['toolbar.focus'] = "انتخاب نوار ابزار";
+language['link.desc'] = "لینک را وارد کنید";language['link.insert.url'] = "لطفا آدرس سایت مورد نظر را وارد کنید :";language['link.insert.url.optional']= "لطفا آدرس سایت مورد نظر خود را وارد کنید . ( اختیاری )";language['link.insert.name'] = "اختیاری ، شما می توانید یک عنوان برای آدرس خود بنویسید .";language['unlink.desc'] = "حذف لینک";language['insertText'] = "لطفا متن خود را وارد کنید . ( اختیاری )";
+language['textAlignLeft.desc'] = "تراز متن از چپ";language['textAlignCenter.desc'] = "تراز متن از وسط";language['textAlignRight.desc'] = "تراز متن از راست";language['textJustify.desc'] = "";
+language['bullist.desc'] = "لیست نقطه دار";language['numlist.desc'] = "لیست شماره گذاری شده";
+language['img.desc'] = "وارد کردن تصویر";language['image.insert'] = "لطفا آدرس تصویری را که می خواهید وارد کنید .";
+language['color.desc'] = "رنگ متن";language['fontsize.default'] = "اندازه متن";language['fontFamily.default'] = "نوع قلم";
+language['quote.desc'] = "قرار دادن متن نقل قول";language['code.desc'] = "کد قرار دادن فرمت";language['php.desc'] = "کد PHP را وارد کنید .";language['video.desc'] = "ویدئو";
+language['view.wysiwyg'] = "ویرایشگر";language['view.code'] = "سورس";
+language['extraBBCodeNotValid'] = "پیام شما درست نیست."; 
+
+// language direction
+var languageDirection = "rtl";
+
+// smileys
+var smilies = new Object();
+
+// bbcodes
+var coreBBCodes = new Object();
+var extraBBCodes = new Object();
+var sourceCodes = new Object();
+			var tmpBBCode = { wysiwyg:1, bbCode:'b', htmlOpen:'strong', htmlClose:'strong', icon:'fontStyleBoldM.png', sourceCode:0, attributes:[] };
+		coreBBCodes['b'] = tmpBBCode;				language['b.title'] = "mybb.bbcode.b.title";
+					var tmpBBCode = { wysiwyg:1, bbCode:'i', htmlOpen:'em', htmlClose:'em', icon:'fontStyleItalicM.png', sourceCode:0, attributes:[] };
+		coreBBCodes['i'] = tmpBBCode;				language['i.title'] = "mybb.bbcode.i.title";
+					var tmpBBCode = { wysiwyg:1, bbCode:'u', htmlOpen:'span style="text-decoration: underline"', htmlClose:'span', icon:'fontStyleUnderlineM.png', sourceCode:0, attributes:[] };
+		coreBBCodes['u'] = tmpBBCode;				language['u.title'] = "mybb.bbcode.u.title";
+					var tmpBBCode = { wysiwyg:1, bbCode:'s', htmlOpen:'span style="text-decoration: line-through"', htmlClose:'span', icon:'fontStyleStriketroughM.png', sourceCode:0, attributes:[] };
+		coreBBCodes['s'] = tmpBBCode;				language['s.title'] = "mybb.bbcode.s.title";
+					var tmpBBCode = { wysiwyg:0, bbCode:'email', htmlOpen:'a', htmlClose:'a', icon:'', sourceCode:0, attributes:[{ attributeHTML:'href="mailto:%s"', validationPattern:'^[^\\s]+@[^\\s]+$', required:1 }] };
+		extraBBCodes['email'] = tmpBBCode;				language['email.title'] = "mybb.bbcode.email.title";
+					language['email.attribute1.promptText'] = "mybb.bbcode.email.promptText";
+					var tmpBBCode = { wysiwyg:1, bbCode:'color', htmlOpen:'span', htmlClose:'span', icon:'fontColorPickerEmptyM.png', sourceCode:0, attributes:[{ attributeHTML:'style="color: %s"', validationPattern:'^[0-9a-z#]+$', required:1 }] };
+		coreBBCodes['color'] = tmpBBCode;				language['color.title'] = "mybb.bbcode.color.title";
+					language['color.attribute1.promptText'] = "mybb.bbcode.color.promptText";
+					var tmpBBCode = { wysiwyg:1, bbCode:'size', htmlOpen:'span', htmlClose:'span', icon:'', sourceCode:0, attributes:[{ attributeHTML:'style="font-size: %dpt"', validationPattern:'^([89]{1}|[1-3]{1}[0-9]{1})$', required:1 }] };
+		coreBBCodes['size'] = tmpBBCode;				language['size.title'] = "mybb.bbcode.size.title";
+					language['size.attribute1.promptText'] = "mybb.bbcode.size.promptText";
+					var tmpBBCode = { wysiwyg:1, bbCode:'font', htmlOpen:'span', htmlClose:'span', icon:'', sourceCode:0, attributes:[{ attributeHTML:'style="font-family: %s"', validationPattern:'^[^"\';}\\(\\)]*$', required:1 }] };
+		coreBBCodes['font'] = tmpBBCode;				language['font.title'] = "mybb.bbcode.font.title";
+					language['font.attribute1.promptText'] = "mybb.bbcode.font.promptText";
+					var tmpBBCode = { wysiwyg:1, bbCode:'align', htmlOpen:'div', htmlClose:'div', icon:'', sourceCode:0, attributes:[{ attributeHTML:'style="text-align: %s"', validationPattern:'^(left|right|center|justify)$', required:1 }] };
+		coreBBCodes['align'] = tmpBBCode;				language['align.title'] = "mybb.bbcode.align.title";
+					language['align.attribute1.promptText'] = "mybb.bbcode.align.promptText";
+					var tmpBBCode = { wysiwyg:0, bbCode:'quote', htmlOpen:'', htmlClose:'', icon:'quoteM.png', sourceCode:0, attributes:[{ attributeHTML:'', validationPattern:'', required:0 }, { attributeHTML:'', validationPattern:'', required:0 }] };
+		coreBBCodes['quote'] = tmpBBCode;				language['quote.title'] = "Zitat{if } von &raquo;{@}&laquo;{/if}";
+					language['quote.attribute1.promptText'] = "mybb.bbcode.quote.promptText";
+					language['quote.attribute2.promptText'] = "mybb.bbcode.quote.promptText";
+					var tmpBBCode = { wysiwyg:0, bbCode:'code', htmlOpen:'', htmlClose:'', icon:'insertCodeM.png', sourceCode:1, attributes:[{ attributeHTML:'', validationPattern:'^\\d+$', required:0 }] };
+		coreBBCodes['code'] = tmpBBCode;		sourceCodes['code'] = 'code';		language['code.title'] = "Quellcode";
+					language['code.attribute1.promptText'] = "mybb.bbcode.code.promptText";
+					var tmpBBCode = { wysiwyg:1, bbCode:'img', htmlOpen:'img', htmlClose:'', icon:'insertImageM.png', sourceCode:0, attributes:[{ attributeHTML:'src="%s" class="resizeImage" alt=""', validationPattern:'^[^?\\s]+$', required:1 }, { attributeHTML:'style="float: %s"', validationPattern:'^(left|right)$', required:0 }] };
+		coreBBCodes['img'] = tmpBBCode;				language['img.title'] = "mybb.bbcode.img.title";
+					language['img.attribute1.promptText'] = "mybb.bbcode.img.promptText";
+					language['img.attribute2.promptText'] = "mybb.bbcode.img.promptText";
+					var tmpBBCode = { wysiwyg:0, bbCode:'url', htmlOpen:'', htmlClose:'', icon:'', sourceCode:0, attributes:[{ attributeHTML:'', validationPattern:'^.+$', required:1 }] };
+		coreBBCodes['url'] = tmpBBCode;				language['url.title'] = "mybb.bbcode.url.title";
+					language['url.attribute1.promptText'] = "mybb.bbcode.url.promptText";
+					var tmpBBCode = { wysiwyg:0, bbCode:'list', htmlOpen:'', htmlClose:'', icon:'', sourceCode:0, attributes:[{ attributeHTML:'', validationPattern:'^(1|a|none|circle|square|disc|decimal|lower-roman|upper-roman|decimal-leading-zero|lower-greek|lower-latin|upper-latin|armenian|georgian)$', required:0 }] };
+		coreBBCodes['list'] = tmpBBCode;				language['list.title'] = "mybb.bbcode.list.title";
+					language['list.attribute1.promptText'] = "mybb.bbcode.list.promptText";
+					var tmpBBCode = { wysiwyg:0, bbCode:'video', htmlOpen:'', htmlClose:'', icon:'video.png', sourceCode:1, attributes:[{ attributeHTML:'', validationPattern:'^\\d+$', required:0 }] };
+		coreBBCodes['video'] = tmpBBCode;		sourceCodes['video'] = 'video';		language['video.title'] = "ویدئو";
+					var tmpBBCode = { wysiwyg:0, bbCode:'php', htmlOpen:'', htmlClose:'', icon:'insertPhpM.png', sourceCode:1, attributes:[{ attributeHTML:'', validationPattern:'^\\d+$', required:0 }] };
+		coreBBCodes['php'] = tmpBBCode;		sourceCodes['php'] = 'php';		language['php.title'] = "کد PHP را وارد کنید .";
+					language['php.attribute1.promptText'] = "mybb.bbcode.php.promptText";
+            		var tmpBBCode = { wysiwyg:0, bbCode:'attachment', htmlOpen:'', htmlClose:'', icon:'', sourceCode:0, attributes:[{ attributeHTML:'', validationPattern:'^\\d+$', required:1 }, { attributeHTML:'', validationPattern:'^(left|right)$', required:0 }] };
+		extraBBCodes['attachment'] = tmpBBCode;				language['attachment.title'] = "mybb.bbcode.attachment.title";
+					language['attachment.attribute1.promptText'] = "mybb.bbcode.attachment.promptText";
+					language['attachment.attribute2.promptText'] = "mybb.bbcode.attachment.promptText";
+			errorField = false;
+// build editor. pass neccessary variables
+tinyMCE.init({
+	// set active view flag (code or wysiwyg) () (default:wysiwyg)
+	editorIsActive : 1,
+	
+	// set available views (default: both views available)
+	editorEnableWysiwygView : 1,
+	editorEnableCodeView : 1,	
+		
+	// set some url vars
+	iconURL : "jscripts/wysiwyg_themes/default/images/",
+	imageURL : "jscripts/wysiwyg_themes/default/images/",
+	blankHTML : "jscripts/wysiwyg_themes/default/blank.html",
+	cssFile : "jscripts/wysiwyg_themes/default/content.css",
+		
+	// set editor height var ()
+	height: 200,
+	
+	// set page default font color var
+	defaultPageFontColor: '#57595a'
+});
+</script>
+<script type="text/javascript" src="jscripts/post.js?ver=1600"></script>
+</tr>
+</table>
+<br />
+<input type="hidden" name="action" value="do_emailuser" />
+<input type="hidden" name="uid" value="{$to_user['uid']}" />
+<div align="center"><input type="submit" class="button" value="{$lang->send_email}" /></div>
+</form>
+{$footer}
+</body>
+</html>strong]]></template>
+		<template name="showthread_moderationoptions" version="1607"><![CDATA[{$inlinemod}
+<form action="moderation.php" method="post" style="margin-top: 0; margin-bottom: 0;" id="moderator_options">
+	<input type="hidden" name="modtype" value="thread" />
+	<input type="hidden" name="tid" value="{$tid}" />
+	<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+	<span class="smalltext">
+	<strong>{$lang->moderation_options}</strong></span>
+	<select name="action" onchange="$('moderator_options').submit();">
+		<option value="delayedmoderation">{$lang->delayed_moderation}</option>
+		<optgroup label="{$lang->standard_mod_tools}">
+			<option value="threadnotes" selected="selected">{$lang->thread_notes}</option>
+			<option value="openclosethread">{$lang->open_close_thread}</option>
+			<option value="deletethread">{$lang->delete_thread}</option>
+			{$adminpolloptions}
+			<option value="deleteposts">{$lang->delete_posts}</option>
+			<option value="move">{$lang->move_thread}</option>
+			<option value="stick">{$lang->stick_unstick_thread}</option>
+			<option value="split">{$lang->split_thread}</option>
+			<option value="merge">{$lang->merge_threads}</option>
+			<option value="mergeposts">{$lang->merge_posts}</option>
+			<option value="removeredirects">{$lang->remove_redirects}</option>
+			<option value="removesubscriptions">{$lang->remove_subscriptions}</option>
+			{$approveunapprovethread}
+		<option value="applyprefix">{$lang->apply_thread_prefix}</option></optgroup>
+		{$customthreadtools}
+	</select>
+	{$gobutton}
+</form>
+<br />]]></template>
+		<template name="forumdisplay_inlinemoderation" version="1607"><![CDATA[<script type="text/javascript" src="jscripts/inline_moderation.js?ver=1600"></script>
+		<form action="moderation.php" method="post">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<input type="hidden" name="fid" value="{$fid}" />
+<input type="hidden" name="modtype" value="inlinethread" />
+<span class="smalltext"><strong>{$lang->inline_thread_moderation}</strong></span>
+<select name="action">
+	<option value="delayedmoderation">{$lang->delayed_moderation}</option>
+	<optgroup label="{$lang->standard_mod_tools}">
+		<option value="multiclosethreads" selected="selected">{$lang->close_threads}</option>
+		<option value="multiopenthreads">{$lang->open_threads}</option>
+		<option value="multistickthreads">{$lang->stick_threads}</option>
+		<option value="multiunstickthreads">{$lang->unstick_threads}</option>
+		<option value="multideletethreads">{$lang->delete_threads}</option>
+		<option value="multimovethreads">{$lang->move_threads}</option>
+		<option value="multiapprovethreads">{$lang->approve_threads}</option>
+		<option value="multiunapprovethreads">{$lang->unapprove_threads}</option>
+	<option value="multiapplyprefix">{$lang->apply_thread_prefix}</option></optgroup>
+	{$customthreadtools}
+</select>
+<input type="submit" class="button" name="go" value="{$lang->inline_go} ({$inlinecount})" id="inline_go" />&nbsp;
+<input type="button" onclick="javascript:inlineModeration.clearChecked();" value="{$lang->clear}" class="button" />
+</form>
+<script type="text/javascript">
+<!--
+	var go_text = "{$lang->inline_go}";
+	var all_text = "{$threadcount}";
+	var inlineType = "forum";
+	var inlineId = {$fid};
+// -->
+</script>
+<br />]]></template>
+		<template name="nav_bit_active" version="1608"><![CDATA[<span class="active">{$navbit['name']}</span>]]></template>
+		<template name="nav_bit" version="1608"><![CDATA[<a href="{$navbit['url']}">{$navbit['name']}</a>{$sep}]]></template>
+		<template name="postbit_www" version="1607"><![CDATA[<a href="{$post['website']}" target="_blank"><img src="{$theme['imglangdir']}/postbit_www.gif" alt="{$lang->postbit_website}" title="{$lang->postbit_website}" /></a>]]></template>
+		<template name="showthread_inlinemoderation" version="1607"><![CDATA[<script type="text/javascript" src="jscripts/inline_moderation.js?ver=1600"></script>
+<form action="moderation.php" method="post">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<strong>تغییر پیشوند موضوع:</strong>&nbsp;&nbsp;
+<select name="threadprefix">
+<option value="0" selected="selected">پیشوند موضوع</option>
+<option value="1">حل نشده</option>
+<option value="2">حل شده</option>
+</select>&nbsp;&nbsp;<input type="submit" class="button" name="submit" value="تایید" />
+<input type="hidden" name="action" value="do_applyprefix" />
+<input type="hidden" name="tid" value="{$tid}" />
+</form><br>
+<form action="moderation.php" method="post" style="margin-top: 0; margin-bottom: 0;">
+<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+<input type="hidden" name="tid" value="{$tid}" />
+<input type="hidden" name="modtype" value="inlinepost" />
+<span class="smalltext"><strong>{$lang->inline_post_moderation}</strong></span>
+<select name="action">
+<optgroup label="{$lang->standard_mod_tools}">
+	<option value="multideleteposts">{$lang->inline_delete_posts}</option>
+	<option value="multimergeposts">{$lang->inline_merge_posts}</option>
+	<option value="multisplitposts">{$lang->inline_split_posts}</option>
+	<option value="multiapproveposts">{$lang->inline_approve_posts}</option>
+	<option value="multiunapproveposts">{$lang->inline_unapprove_posts}</option>
+</optgroup>
+{$customposttools}
+</select>
+<input type="submit" class="button" name="go" value="{$lang->go} ({$inlinecount})" id="inline_go" />&nbsp;
+<input type="button" class="button" onclick="javascript:inlineModeration.clearChecked();" value="{$lang->clear}" />
+</form>
+<script type="text/javascript">
+<!--
+	var go_text = "{$lang->inline_go}";
+	var all_text = "{$threadcount}";
+	var inlineType = "thread";
+	var inlineId = {$tid};
+// -->
+</script><br />]]></template>
+		<template name="member_profile_modoptions" version="1608"><![CDATA[<br /><table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" width="100%" class="tborder">
+<tr>
+<td colspan="2" class="thead"><strong>{$lang->mod_options}</strong></td>
+</tr>
+<tr>
+<td class="trow1">
+<ul>
+<li><a href="{$mybb->settings['bburl']}/modcp.php?action=editprofile&amp;uid={$uid}">{$lang->edit_in_mcp}</a></li>
+<li><a href="{$mybb->settings['bburl']}/modcp.php?action=banuser&amp;uid={$uid}">{$lang->ban_in_mcp}</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="trow2">
+{$memprofile['usernotes']}<br />
+<a href="{$mybb->settings['bburl']}/modcp.php?action=editprofile&amp;uid={$uid}">{$lang->edit_usernotes}</a>
+<br />
+<a href="{$mybb->settings['bburl']}/activeuser.php?uid={$uid}">فعال سازی این کاربر</a>
+</td>
+</tr>
+</table>]]></template>
+		<template name="online_row_ip" version="1608"><![CDATA[<br /><span class="smalltext">{$lang->ip} {$user['ip']} <a href="modcp.php?action=ipsearch&amp;ipaddress={$user['ip']}&amp;search_users=1">{$lang->lookup}</a> - <a href="http://whois.domaintools.com/{$user['ip']}">(اطلاعات کاربر)</a></span>]]></template>
+		<template name="forumbit_depth1_cat" version="1608"><![CDATA[<div class="thead2"><thead>
+<div class="expcolimage"><img src="{$theme['imgdir']}/{$expcolimage}" id="cat_{$forum['fid']}_img" class="expander" alt="{$expaltext}" title="{$expaltext}" /></div>
+<div><strong><a href="{$forum_url}">{$forum['name']}<h3>{$forum['name']}</h3></a></strong><br /><div class="smalltext">{$forum['description']}</div></div>
+
+</thead></div>
+<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tbody style="{$expdisplay}" id="cat_{$forum['fid']}_e">
+<tr><td class="alt1" colspan="5">
+<div><table class="tcat2">
+<tr>
+<td  colspan="2"><span class="smalltext"><strong>{$lang->forumbit_forum}</strong></span></td>
+<td width="85" align="center" style="white-space: nowrap"><strong>{$lang->forumbit_threads}</strong></td>
+<td width="85" align="center" style="white-space: nowrap"><strong>{$lang->forumbit_posts}</strong></td>
+<td width="200" align="center"><strong>{$lang->forumbit_lastpost}</strong></td>
+</tr>
+</table></div>
+{$sub_forums}
+</td></tr></tbody>
+</table>
+<br />]]></template>
+		<template name="forumbit_depth2_cat" version="1608"><![CDATA[<div><table class="forum">
+<tr>
+<td align="center" valign="top" width="1" style="padding-left:10px;"><img src="{$theme['imgdir']}/{$lightbulb['folder']}.gif" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="ajax_mark_read" id="mark_read_{$forum['fid']}" /></td>
+<td valign="top">
+<div class="forumposts">
+موضوعها: {$threads}{$unapproved['unapproved_threads']} | ارسالها: {$posts}{$unapproved['unapproved_posts']}
+<!-- my-bb.ir - alirezatofighi -->
+</div>
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div>{$forum['description']}{$subforums}</div>
+</td>
+<td width="200" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
+</tr>
+</table></div>]]></template>
+		<template name="forumbit_depth2_forum" version="1608"><![CDATA[<div><table class="forum">
+<tr>
+<td align="center" valign="top" width="1" style="padding-left:10px;"><img src="{$theme['imgdir']}/{$lightbulb['folder']}.gif" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="ajax_mark_read" id="mark_read_{$forum['fid']}" /></td>
+<td valign="top">
+<div class="forumposts">
+موضوعها: {$threads}{$unapproved['unapproved_threads']} | ارسالها: {$posts}{$unapproved['unapproved_posts']}
+</div>
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div>{$forum['description']}{$modlist}{$subforums}</div>
+</td>
+<td width="200" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
+</tr>
+</table></div>]]></template>
+		<template name="postbit_avatar" version="1608"><![CDATA[<a href="{$post['profilelink_plain']}"><img src="{$post['avatar']}" class="postbit-avatar" alt="" {$avatar_width_height} /></a>]]></template>
+		<template name="forumdisplay_subforums" version="1608"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<tr>
+<td class="thead" colspan="5" align="center"><strong>{$lang->sub_forums_in}</strong></td>
+</tr>
+<tr>
+<td class="tcat" width="2%">&nbsp;</td>
+<td class="tcat" width="59%"><span class="smalltext"><strong>{$lang->forumbit_forum}</strong></span></td>
+<td class="tcat" width="7%" align="center" style="white-space: nowrap"><span class="smalltext"><strong>{$lang->forumbit_threads}</strong></span></td>
+<td class="tcat" width="7%" align="center" style="white-space: nowrap"><span class="smalltext"><strong>{$lang->forumbit_posts}</strong></span></td>
+<td class="tcat" width="15%" align="center"><span class="smalltext"><strong>{$lang->forumbit_lastpost}</strong></span></td>
+</tr>
+{$forums}
+</table>
+<br />]]></template>
+		<template name="smilieinsert_getmore" version="1608"><![CDATA[<tr>
+<td class="trow2" align="center"><span class="smalltext"><strong>[<a href="javascript:clickableEditor.openGetMoreSmilies('clickableEditor');"                                >{$lang->smilieinsert_getmore}</a>]</strong></span></td>
+</tr>]]></template>
+		<template name="warnings_warn_pm" version="1608"><![CDATA[		<tr>
+			<td width="20%" class="trow1" valign="top">
+				<strong>{$lang->send_pm}</strong>
+				<div style="margin:auto" id="pm_smilie_insert">{$smilieinserter}</div>
+			</td>
+			<td class="trow1">
+				<script type="text/javascript">
+				// <!--
+					var mybb_editor_disabled = true;
+					var clickableEditor = '';
+					function togglePM()
+					{
+						if($('send_pm').checked == true)
+						{
+							$('pm_input').show();
+							$('pm_smilie_insert').show();
+							if(mybb_editor_disabled == true && editor_language)
+							{
+								mybb_editor_disabled = false;
+								clickableEditor = new messageEditor("message", {lang: editor_language, rtl: {$lang->settings['rtl']}, theme: "{$theme['editortheme']}"});
+								if(clickableEditor)
+								{
+									clickableEditor.bindSmilieInserter("clickable_smilies");
+								}
+							}
+						}
+						else
+						{
+							$('pm_input').hide();
+							$('pm_smilie_insert').hide();
+						}
+					}
+				// -->
+				</script>
+				<label style="display: block;"><input type="checkbox" class="checkbox" value="1" name="send_pm" id="send_pm" onclick="togglePM();" style="vertical-align: middle;" {$send_pm_checked} /> {$lang->send_user_warning_pm}</label>
+				<table id="pm_input" cellpadding="{$theme['tablespace']}">
+					<tr>
+						<td><strong>{$lang->send_pm_subject}</strong></td>
+						<td><input type="text" class="textbox" name="pm_subject" size="40" maxlength="85" value="{$pm_subject}" /></td>
+					</tr>
+					<tr>
+						<td valign="top"><strong>{$lang->send_pm_message}</strong></td>
+						<td><textarea id="pm_message" id="message" rows="20" cols="70">{$message}</textarea>{$codebuttons}
+						</td>
+					</tr>
+				</table>
+				<script type="text/javascript">
+				<!--
+					togglePM();
+				// -->
+				</script>
+			</td>
+		</tr>]]></template>
+		<template name="warnings_warn" version="1608"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']} - {$lang->warn_user}</title>
+{$headerinclude}
+</head>
+<body>
+{$header}
+{$existing_warnings}
+{$warn_errors}
+<form action="warnings.php" method="post" name="input">
+	<input type="hidden" name="my_post_key" value="{$mybb->post_code}" />
+	<input type="hidden" name="action" value="do_warn" />
+	<input type="hidden" name="uid" value="{$user['uid']}" />
+
+	<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="clear: both;">
+		<tr>
+			<td colspan="2" width="100%" class="thead"><strong>{$lang->warn_user}</strong></td>
+		</tr>
+		<tr>
+			<td class="tcat" colspan="2"><span class="smalltext"><strong>{$lang->warn_user_desc}</strong></span></td>
+		</tr>
+		<tr>
+			<td width="20%" class="trow1"><strong>{$lang->username}</strong></td>
+			<td class="trow1">{$user_link}</td>
+		</tr>
+{$post}
+		<tr>
+			<td width="20%" class="trow1" valign="top"><strong>{$lang->warning_note}</strong></td>
+			<td class="trow1"><textarea name="notes" cols="60" rows="4">{$notes}</textarea></td>
+		</tr>
+		<tr>
+			<td width="20%" class="trow2" valign="top"><strong>{$lang->warning_type}</strong></td>
+			<td class="trow2">
+				<script type="text/javascript">
+				// <!--
+					function checkType()
+					{
+						var checked = '';
+						$$('.types_check').each(function(e)
+						{
+							if(e.checked == true)
+							{
+								checked = e.value;
+							}
+						});
+						$$('.types').each(function(e)
+						{
+							Element.hide(e);
+						});
+						if($('type_'+checked))
+						{
+							Element.show('type_'+checked);
+						}
+					}
+				// -->
+				</script>
+				<dl style="margin-top: 0; margin-bottom: 0; width: 100%;">
+					{$types}
+					{$custom_warning}
+				</dl>
+				<script type="text/javascript">
+				// <!--
+					checkType();
+				// -->
+				</script>
+			</td>
+		</tr>
+		{$pm_notify}
+	</table>
+	<br />
+	<div align="center"><input type="submit" class="button" value="{$lang->warn_user}" /></div>
+</form>
+{$footer}
+</body>
+</html>]]></template>
+	</templates>
+</theme>
