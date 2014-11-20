@@ -3,8 +3,8 @@
 	<properties>
 		<templateset><![CDATA[4]]></templateset>
 		<editortheme><![CDATA[default]]></editortheme>
-		<imgdir><![CDATA[http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4]]></imgdir>
-		<logo><![CDATA[http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/vbulletin4_logo.png]]></logo>
+		<imgdir><![CDATA[http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4]]></imgdir>
+		<logo><![CDATA[http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/vbulletin4_logo.png]]></logo>
 		<tablespace><![CDATA[4]]></tablespace>
 		<borderwidth><![CDATA[1]]></borderwidth>
 	</properties>
@@ -118,7 +118,7 @@ a:hover, a:active {
 .navbar a:hover { color:rgb(255, 255, 255); }
 
 .navtabs {
-	background:#7192A8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	background:#7192A8 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
 	padding: 0px 20px 0px 0px;
 	height: 26px;
 	list-style: none;
@@ -176,7 +176,7 @@ a:hover, a:active {
 	border-top: 1px solid #Cedfeb;
 	border-right: 1px solid #Cedfeb;
 	display:block;
-	background:#7192A8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	background:#7192A8 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
 	min-width:60px;
 	width:auto !important;
 	width:60px;
@@ -188,7 +188,7 @@ a:hover, a:active {
 }
 
 .navtabs li a.navtab:hover {
-	background:#7192a8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/selected.png) repeat-x   0 -4px;
+	background:#7192a8 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/selected.png) repeat-x   0 -4px;
 	color:#000000;
 }
 
@@ -199,7 +199,7 @@ a:hover, a:active {
 
 .navtabs li.selected a.navtab {
 	color:#000000;
-	background:#7192a8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/selected.png) repeat-x  ;
+	background:#7192a8 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/selected.png) repeat-x  ;
 	position:relative;
 	top:-4px;
 	padding-top:4px;
@@ -259,7 +259,7 @@ a:hover, a:active {
 	-webkit-border-radius:3px;	
 	border-radius:3px;
 	border:solid 1px transparent;
-	background:transparent url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/arrow.png) no-repeat left center;
+	background:transparent url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/arrow.png) no-repeat left center;
 	padding-left:15px;
 	color: rgb(255, 255, 255);
 }
@@ -400,7 +400,7 @@ table {
 }
 
 .thead {
-	background: #7192a8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	background: #7192a8 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
 	_background-image: none;
 	padding: 3px;
 	font:  bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
@@ -430,7 +430,7 @@ table {
 
 
 .tbsmybbirhead {
-	background: #a4a4a4 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	background: #a4a4a4 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
 	_background-image: none;
 	padding: 3px;
 	font:  bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
@@ -477,30 +477,30 @@ table {
 }
 
 .trow1 {
-	background: #ffffff url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+	background: #ffffff url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
 }
 
 .trow2 {
-	background: #ffffff url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+	background: #ffffff url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
 }
 
 .trow_shaded {
-	background: #ffdde0 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+	background: #ffdde0 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
 }
 
 .trow_selected td {
-	background: #FFFBD9 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+	background: #FFFBD9 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
 }
 
 .trow_sep {
-	background: #e5e5e5 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+	background: #e5e5e5 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
 	color: #000;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 .tfoot {
-	background: #a4a4a4 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	background: #a4a4a4 url(http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
 	_background-image: none;
 	color: #ffffff;
 }
@@ -1168,7 +1168,7 @@ dl.stats {
 				
 				<input type="hidden" name="do" value="process" />
 				<span class="textboxcontainer"><span><input type="text" value="" name="query" class="textbox" tabindex="99"/></span></span>
-				<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100"/></span></span>
+				<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100"/></span></span>
 			</form>
 		</div>
 	</div>
@@ -1306,7 +1306,7 @@ dl.stats {
 // -->
 </script>]]></template>
 		<template name="postbit_quote" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}&amp;pid={$post['pid']}" class="cssbuttons" title="نقل قول">نقل قول</a>]]></template>
-		<template name="postbit_multiquote" version="1609"><![CDATA[<a href="javascript:Thread.multiQuote({$post['pid']});" style="display: none;" id="multiquote_link_{$post['pid']}" class="cssbuttons" title="نقل قول"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/postbit_multiquote.png" alt="{$lang->postbit_multiquote}" title="{$lang->postbit_multiquote}" id="multiquote_{$post['pid']}" /></a>
+		<template name="postbit_multiquote" version="1609"><![CDATA[<a href="javascript:Thread.multiQuote({$post['pid']});" style="display: none;" id="multiquote_link_{$post['pid']}" class="cssbuttons" title="نقل قول"><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/postbit_multiquote.png" alt="{$lang->postbit_multiquote}" title="{$lang->postbit_multiquote}" id="multiquote_{$post['pid']}" /></a>
 <script type="text/javascript">
 //<!--
 	$('multiquote_link_{$post['pid']}').style.display = '';
@@ -1331,15 +1331,15 @@ dl.stats {
 {$whosonline}
 {$birthdays}
 {$forumstats}
-<tr><td class="trow1"><div class="smalltext"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/legend.png" alt="mybbir-alirezatofighi" /> <strong>راهنمای آیکون های سایت</strong></div>
+<tr><td class="trow1"><div class="smalltext"><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/legend.png" alt="mybbir-alirezatofighi" /> <strong>راهنمای آیکون های سایت</strong></div>
 <dl class="forum_legend smalltext" style="margin-right:20px;">
-	<div style="padding-bottom:5px;"><dt><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/minion.png" alt="انجمن شامل ارسال تازه می‌باشد" title="انجمن شامل ارسال تازه می‌باشد" style="vertical-align: middle;" /></dt>
+	<div style="padding-bottom:5px;"><dt><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/minion.png" alt="انجمن شامل ارسال تازه می‌باشد" title="انجمن شامل ارسال تازه می‌باشد" style="vertical-align: middle;" /></dt>
 	<dd>انجمن شامل ارسال تازه می‌باشد</dd><br /></div>
 
-<div style="padding-bottom:5px;"><dt><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/minioff.png" alt="انجمن شامل ارسالی تازه نمی‌باشد" title="انجمن شامل ارسالی تازه نمی‌باشد"  style="vertical-align: middle;" /></dt>
+<div style="padding-bottom:5px;"><dt><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/minioff.png" alt="انجمن شامل ارسالی تازه نمی‌باشد" title="انجمن شامل ارسالی تازه نمی‌باشد"  style="vertical-align: middle;" /></dt>
 	<dd>انجمن شامل ارسالی تازه نمی‌باشد</dd><br /></div>
 
-	<div style="padding-bottom:5px;"><dt><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/miniofflock.png" alt="انجمن بسته است" title="انجمن بسته است"  style="vertical-align: middle;" /></dt>
+	<div style="padding-bottom:5px;"><dt><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/miniofflock.png" alt="انجمن بسته است" title="انجمن بسته است"  style="vertical-align: middle;" /></dt>
 	<dd>انجمن بسته است</dd></div>
 </dl>
 </td></tr>
@@ -1359,7 +1359,7 @@ dl.stats {
 		<template name="index_birthdays" version="1609"><![CDATA[<tr><td class="trow1"><strong>{$lang->todays_birthdays}</strong></div>
 <span class="smalltext">{$bdays}</span></td>
 </tr>]]></template>
-		<template name="index_stats" version="1609"><![CDATA[<tr><td class="trow1"><div class="smalltext"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/forum_stats.png" alt="mybbir-alirezatofighi" /> <strong>آمار و ارقام {$mybb->settings['bbname']}</strong></div><div class="smalltext msfont" style="margin-right:20px;">
+		<template name="index_stats" version="1609"><![CDATA[<tr><td class="trow1"><div class="smalltext"><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/forum_stats.png" alt="mybbir-alirezatofighi" /> <strong>آمار و ارقام {$mybb->settings['bbname']}</strong></div><div class="smalltext msfont" style="margin-right:20px;">
 {$lang->stats_posts_threads}<br />
 {$lang->stats_numusers}<br />
 {$lang->stats_newestuser}<br />
@@ -1367,7 +1367,7 @@ dl.stats {
 </div>
 </td></tr>]]></template>
 		<template name="index_whosonline" version="1609"><![CDATA[<tr><td class="trow1"><div>
-<div class="smalltext"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/users_online.png" alt="mybbir-alirezatofighi" /> <strong>{$lang->whos_online}</strong> [<a href="online.php">{$lang->complete_list}</a>]</div>
+<div class="smalltext"><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/users_online.png" alt="mybbir-alirezatofighi" /> <strong>{$lang->whos_online}</strong> [<a href="online.php">{$lang->complete_list}</a>]</div>
 <div class="smalltext" style="margin-right:20px;">{$lang->online_note}<br />{$onlinemembers}</div></td>
 </div>
 </td></tr>]]></template>
@@ -1391,10 +1391,10 @@ dl.stats {
 </body>
 </html>]]></template>
 		<template name="nav" version="1609"><![CDATA[<div class="navigation">
-<a href="{$mybb->settings['bburl']}"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-home.png" alt="home" /></a>{$nav}{$activesep}{$activebit}
+<a href="{$mybb->settings['bburl']}"><img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-home.png" alt="home" /></a>{$nav}{$activesep}{$activebit}
 </div>]]></template>
-		<template name="nav_sep" version="1609"><![CDATA[<img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-arrow-left.png" alt="nav_sep" />]]></template>
-		<template name="nav_sep_active" version="1609"><![CDATA[<img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-arrow-left.png" alt="nav_sep" />]]></template>
+		<template name="nav_sep" version="1609"><![CDATA[<img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-arrow-left.png" alt="nav_sep" />]]></template>
+		<template name="nav_sep_active" version="1609"><![CDATA[<img src="http://themes.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-arrow-left.png" alt="nav_sep" />]]></template>
 		<template name="footer" version="1609"><![CDATA[<br />
 			<div class="bottommenu">
 				<div class="float_left">{$lang_select}</div>
