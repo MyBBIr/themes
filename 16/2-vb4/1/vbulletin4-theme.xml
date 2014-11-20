@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme name="vbulletin4" version="1609">
+	<properties>
+		<templateset><![CDATA[4]]></templateset>
+		<editortheme><![CDATA[default]]></editortheme>
+		<imgdir><![CDATA[http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4]]></imgdir>
+		<logo><![CDATA[http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/vbulletin4_logo.png]]></logo>
+		<tablespace><![CDATA[4]]></tablespace>
+		<borderwidth><![CDATA[1]]></borderwidth>
+	</properties>
+	<stylesheets>
+		<stylesheet name="global.css" version="1609"><![CDATA[body {
+	background: #efefef;
+	color: #000;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 13px;
+	text-align: center; /* IE 5 fix */
+	line-height: 1.4;
+	dirction:rtl;
+	margin:0;
+}
+
+a:link {
+	color: #026CB1;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #026CB1;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+#container {
+	width: 95%;
+	color: #000000;
+	margin: auto auto;
+	padding: 20px;
+	padding-top:0px;
+	text-align: right; /* IE 5 fix */
+}
+
+#content{
+	background:#ffffff;
+	padding:20px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#header {
+	background:#2d4152;
+	height:108px;
+	position:relative;
+	color:#ffffff;
+	padding:0px;
+	margin:0px;
+}
+
+#header .boxes{
+	background:#7192a8;
+	padding:5px;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:11px;
+	margin-left:3px;
+	margin-right:3px;
+	display:inline-block;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+}
+
+#pms_usage {
+	position:fixed;
+	display:none;
+	background:#7192a8;
+	border:1px solid #000000;
+	padding:5px;
+	color:#ffffff;
+	font-weight:normal;
+	font-size:11px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	opacity: 0.8;
+}
+
+
+#header .boxes a:link, #header .boxes a:hover, #header .boxes a:active, #header .boxes a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.navbar {
+	position:relative;
+	height: 53px;
+	background:#2f4456 none ;
+	margin:10px 0px 0px 0px;
+	color:rgb(255, 255, 255);
+	font:normal normal normal 13px tahoma;
+	border:0px solid rgb(255, 255, 255);
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}
+.navbar a { color:rgb(255, 255, 255); }
+.navbar a:hover { color:rgb(255, 255, 255); }
+
+.navtabs {
+	background:#7192A8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	padding: 0px 20px 0px 0px;
+	height: 26px;
+	list-style: none;
+}
+
+.navtabs li:first-child {
+	border-right: 1px solid #5a7f97;
+}
+
+.navtabs ul {
+/*	height: 26px; */
+	position:absolute;
+	top:26px;
+	right:0px;
+	width:100%;
+	border-top:1px solid #5a7f97;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	margin-left:0;
+/* This is to fix RTL menu issue under Opera */
+	direction:ltr;
+	list-style: none;
+}
+
+.navtabs li {
+	float:right;
+	border-left: 1px solid #5a7f97;
+}
+
+.navtabs ul li:first-child {
+	margin-right: 20px;
+	border-right: 0;
+}
+
+#navtabs .popupmenu ul li:first-child {
+	margin-right: 0px;
+}
+
+.navtabs ul li {
+	border-left: 0;
+	position: relative;
+}
+
+.navtabs li a {
+	height:26px;
+	line-height:26px;
+	padding:0 10px;
+}
+
+.navtabs li a.navtab {
+	border-top: 1px solid #Cedfeb;
+	border-right: 1px solid #Cedfeb;
+	display:block;
+	background:#7192A8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	min-width:60px;
+	width:auto !important;
+	width:60px;
+	text-align:center;
+	color: #ffffff;
+	font:  bold 14px tahoma;
+	text-decoration:none;
+	line-height:26px;
+}
+
+.navtabs li a.navtab:hover {
+	background:#7192a8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/selected.png) repeat-x   0 -4px;
+	color:#000000;
+}
+
+.navtabs li.selected {
+	height:26px;
+	color:#000000;
+}
+
+.navtabs li.selected a.navtab {
+	color:#000000;
+	background:#7192a8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/selected.png) repeat-x  ;
+	position:relative;
+	top:-4px;
+	padding-top:4px;
+	z-index:10;
+}
+
+.navtabs li.selected li a,
+.navbar_advanced_search li a {
+	text-decoration:none;
+	font:normal normal normal 13px tahoma;
+	line-height: 26px;
+}
+
+.navtabs li.selected li a {
+	color:rgb(255, 255, 255);
+	padding:2px 5px;
+}
+
+.navtabs li.selected ul.popupbody a {
+    line-height: 26px;
+}
+
+.navbar_advanced_search li {
+	height: 26px;
+	display:block;
+	clear:both;
+}
+
+.navbar_advanced_search li a {
+	color:rgb(255, 255, 255);
+}
+
+.navbar_advanced_search li a:hover {
+	color:rgb(255, 255, 255);
+	text-decoration:underline;
+}
+
+.navtabs li.selected li a:hover {
+	color:rgb(255, 255, 255);
+	text-decoration:underline;
+}
+
+.navtabs li.selected .popupbody li a {
+	text-indent: 0;
+	color: #000000;
+	background: #FFFFFF none   ;
+	padding:0px 10px;
+}
+
+.navtabs li.selected .popupbody li a:hover {
+	color: #000000;
+	background: #FFEB90 none   ;
+}
+
+.navtabs li.selected li a.popupctrl {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;	
+	border-radius:3px;
+	border:solid 1px transparent;
+	background:transparent url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/arrow.png) no-repeat left center;
+	padding-left:15px;
+	color: rgb(255, 255, 255);
+}
+
+.floatcontainer {
+	width:auto !important;
+}
+
+
+.globalsearch {
+	position:absolute;
+	width:180px;
+	left: 20px;
+	top: 0px;
+	float: left;
+	clear: right;
+	text-align:left;
+	line-height: 1.0em;
+	display:block;
+}
+
+.navbar_search {
+	position:relative;
+	width: 180;
+	left: -20px;
+	display:block;
+}
+
+.navbar_search input {
+	font-size: 11px;
+	vertical-align:middle;
+	padding: 1px;
+	border:1px solid #6B91AB;
+}
+
+.globalsearch .textboxcontainer {
+	height: 26px;
+	border-right:1px solid #5a7f97;
+	display:inline-block;
+	float: right;
+	text-align:center;
+}
+
+.globalsearch .textboxcontainer span {
+	border-top: 1px solid #Cedfeb;
+	border-right: 1px solid #Cedfeb;
+	display: inline-block;
+	height: 22px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-top: 3px;
+	margin-bottom: 1px;
+	width: 147px;
+}
+
+.globalsearch input.textbox {
+	width: 120px;
+}
+
+#content {
+	/* FIX: Make internet explorer wrap correctly */
+	width: auto !important;
+
+}
+
+.menu ul {
+	color: #000000;
+	font-weight: bold;
+	text-align: left;
+	padding: 4px;
+}
+
+.menu ul a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu ul a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu ul a:hover, .menu ul a:active {
+	color: #4874a3;
+	text-decoration: none;
+}
+
+#panel {
+	background: #efefef;
+	color: #000000;
+	font-size: 11px;
+	border: 1px solid #D4D4D4;
+	padding: 8px;
+}
+
+#panel .remember_me input {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+#subforum {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size:11px;
+	color:#000000;
+}
+
+#subforum li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float: right;
+	display: block;
+	width: 50%;
+	color:#000000;
+}
+
+table {
+	color: #000000;
+	font-family: Tahoma,Verdana, Arial, Sans-Serif;
+	font-size: 13px;
+}
+
+.tborder {
+	width: 100%;
+	margin: auto auto;
+	padding:0;
+	background:#5a7f97;
+	border: none;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow:3px 3px 5px #7d7d7d;
+}
+
+.thead {
+	background: #7192a8 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	_background-image: none;
+	padding: 3px;
+	font:  bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #ffffff;
+}
+
+.thead a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.thead a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.thead a:hover, .thead a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+.tbsmybbirhead {
+	background: #a4a4a4 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	_background-image: none;
+	padding: 3px;
+	font:  bold 12px Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #ffffff;
+}
+
+.tbsmybbirhead a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tbsmybbirhead a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tbsmybbirhead a:hover, .tbsmybbirhead a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.tcat {
+	background: #e9e9e9;
+	color: #000000;
+	font-size: 12px;
+}
+
+.tcat a:link {
+	color: #000000;
+}
+
+.tcat a:visited {
+	color: #000000;
+}
+
+.tcat a:hover, .tcat a:active {
+	color: #000000;
+}
+
+.trow1 {
+	background: #ffffff url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+}
+
+.trow2 {
+	background: #ffffff url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+}
+
+.trow_shaded {
+	background: #ffdde0 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+}
+
+.trow_selected td {
+	background: #FFFBD9 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+}
+
+.trow_sep {
+	background: #e5e5e5 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/alt_bg.png) bottom right repeat-x;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tfoot {
+	background: #a4a4a4 url(http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/newbtn_m.png) repeat-x  ;
+	_background-image: none;
+	color: #ffffff;
+}
+
+.tfoot a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tfoot a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.tfoot a:hover, .tfoot a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.bottommenu {
+	background: #425769;
+	color: #ffffff;
+	padding: 10px;
+	box-shadow:0 1px 3px #cbcbcb; 
+}
+
+.bottommenu a:link, .bottommenu a:visited, .bottommenu a:hover, .bottommenu a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.navigation {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.navigation a:link {
+	text-decoration: none;
+}
+
+.navigation a:visited {
+	text-decoration: none;
+}
+
+.navigation a:hover, .navigation a:active {
+	text-decoration: none;
+}
+
+.navigation .active {
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.smalltext {
+	font-size: 11px;
+}
+
+.largetext {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+input.textbox {
+	background: #ffffff;
+	color: #000000;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border: 1px solid #ababab;
+	padding: 1px;
+	font-size:10px;
+	font-family:Tahoma;
+}
+
+input[type=submit],input[type=button] {
+	background: #f0f0f0;
+	color: #000000;
+	border: 1px solid #415d8d;
+	padding: 1px;
+	font-size:10px;
+	font-family:Tahoma;
+}
+input.loginbutton{
+	background: #f0f0f0;
+	color: #000000;
+	border: 1px solid #415d8d;
+	padding: 1px;
+	font-size:10px;
+	font-family:Tahoma;
+}
+
+textarea {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #0f5c8e;
+	padding: 2px;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	line-height: 1.4;
+	font-size: 13px;
+}
+
+select {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #415d8d;
+	padding: 1px;
+	font-size:10px;
+	font-family:Tahoma;
+}
+
+.editor {
+	background: #f1f1f1;
+	border: 1px solid #ccc;
+}
+
+.editor_control_bar {
+	background: #fff;
+	border: 1px solid #0f5c8e;
+}
+
+.autocomplete {
+	background: #fff;
+	border: 1px solid #000;
+	color: black;
+}
+
+.autocomplete_selected {
+	background: #adcee7;
+	color: #000;
+}
+
+.popup_menu {
+	background: #ccc;
+	border: 1px solid #000;
+}
+
+.popup_menu .popup_item {
+	background: #fff;
+	color: #000;
+}
+
+.popup_menu .popup_item:hover {
+	background: #C7DBEE;
+	color: #000;
+}
+
+.trow_reputation_positive {
+	background: #ccffcc;
+}
+
+.trow_reputation_negative {
+	background: #ffcccc;
+}
+
+.reputation_positive {
+	color: green;
+}
+
+.reputation_neutral {
+	color: #444;
+}
+
+.reputation_negative {
+	color: red;
+}
+
+.invalid_field {
+	border: 1px solid #f30;
+	color: #f30;
+}
+
+.valid_field {
+	border: 1px solid #0c0;
+}
+
+.validation_error {
+	background: url(images/invalid.gif) no-repeat center right;
+	color: #f30;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-right: 22px;
+}
+
+.validation_success {
+	background: url(images/valid.gif) no-repeat center right;
+	color: #00b200;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-right: 22px;
+}
+
+.validation_loading {
+	background: url(images/spinner.gif) no-repeat center right;
+	color: #555;
+	margin: 5px 0;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 11px;
+	padding-right: 22px;
+}
+
+/* Additional CSS (Master) */
+img {
+	border: none;
+}
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+	float: none;
+	width: 1%;
+}
+
+.hiddenrow {
+	display: none;
+}
+
+.selectall {
+	background-color: #FFFBD9;
+	font-weight: bold;
+	text-align: center;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+}
+
+.menu li {
+	display: inline;
+	padding-left: 5px;
+}
+
+.menu img {
+	padding-left: 5px;
+	vertical-align: top;
+}
+
+#panel .links {
+	margin: 0;
+	float: left;
+}
+
+.expcolimage {
+	float: left;
+	width: auto;
+	vertical-align: middle;
+	margin-top: 3px;
+}
+
+img.attachment {
+	border: 1px solid #E9E5D7;
+	padding: 2px;
+}
+
+hr {
+	background-color: #000000;
+	color: #000000;
+	height: 1px;
+	border: 0px;
+}
+
+#copyright {
+	font: 11px Tahoma, Verdana, Arial, Sans-Serif;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+#debug {
+	float: left;
+	text-align: left;
+	margin-top: 0;
+}
+
+.cssbuttons { 
+	background: #efefef; 
+	border: 1px solid #ccc; 
+	color: #242424; 
+	padding: 2px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	font-size:11px;
+}
+
+.cssbuttons:link {
+	color: #242424;
+}
+.cssbuttons:visited {
+	color: #242424;
+}
+
+.cssbuttons:hover {
+	color: #000000;
+}
+
+blockquote {
+	border: 1px solid #ccc;
+	margin: 0;
+	background: #fff;
+	padding: 4px;
+}
+
+blockquote cite {
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+	font-style: normal;
+	display: block;
+	margin: 4px 0;
+}
+
+blockquote cite span {
+	float: right;
+	font-weight: normal;
+}
+
+blockquote cite span.highlight {
+	float: none;
+	font-weight: bold;
+	padding-bottom: 0;
+}
+
+.codeblock {
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+.codeblock .title {
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+	margin: 4px 0;
+}
+
+.codeblock code {
+	overflow: auto;
+	height: auto;
+	max-height: 200px;
+	display: block;
+	font-family: Monaco, Consolas, Courier, monospace;
+	font-size: 13px;
+}
+
+.subforumicon {
+	border: 0;
+	vertical-align: middle;
+}
+
+.separator {
+	margin: 5px;
+	padding: 0;
+	height: 0px;
+	font-size: 1px;
+	list-style-type: none;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+.popup_menu .popup_item_container {
+	margin: 1px;
+	text-align: right;
+}
+
+.popup_menu .popup_item {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.popup_menu a.popup_item:hover {
+	text-decoration: none;
+}
+
+.autocomplete {
+	text-align: right;
+}
+
+.subject_new {
+	font-weight: bold;
+}
+
+.highlight {
+	background: #FFFFCC;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.pm_alert {
+	background: #FFF6BF;
+	border: 1px solid #FFD324;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.red_alert {
+	background: #FBE3E4;
+	border: 1px solid #A5161A;
+	color: #A5161A;
+	text-align: center;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+	font-size: 11px;
+}
+
+.high_warning {
+	color: #CC0000;
+}
+
+.moderate_warning {
+	color: #F3611B;
+}
+
+.low_warning {
+	color: #AE5700;
+}
+
+div.error {
+	padding: 5px 10px;
+	border-top: 2px solid #FFD324;
+	border-bottom: 2px solid #FFD324;
+	background: #FFF6BF;
+	font-size: 12px;
+}
+
+div.error p {
+	margin: 0;
+	color: #000;
+	font-weight: normal;
+}
+
+div.error p em {
+	font-style: normal;
+	font-weight: bold;
+	padding-left: 24px;
+	display: block;
+	color: #C00;
+	background: url(images/error.gif) no-repeat 0;
+}
+
+div.error ul {
+	margin-left: 24px;
+}
+
+.online {
+	color: #15A018;
+}
+
+.offline {
+	color: #C7C7C7;
+}
+
+.pagination {
+	font-size: 11px;
+	padding-top: 10px;
+	margin-bottom: 5px;
+}
+
+.tfoot .pagination, .tcat .pagination {
+	padding-top: 0;
+}
+.pagination .pages {
+	font-weight: bold;
+}
+
+.pagination .pagination_current, .pagination a {
+	padding: 2px 6px;
+	margin-bottom: 3px;
+}
+
+.pagination a {
+	border: 1px solid #81A2C4;
+}
+
+.pagination .pagination_current {
+	background: #F5F5F5;
+	border: 1px solid #81A2C4;
+	font-weight: bold;
+	color: #000;
+}
+
+.pagination a:hover {
+	background: #F5F5F5;
+	text-decoration: none;
+}
+
+.thread_legend, .thread_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.thread_legend dd {
+	padding-bottom: 4px;
+	margin-left: 15px;
+}
+
+.thread_legend img {
+	margin-left: 4px;
+	vertical-align: bottom;
+}
+
+.forum_legend, .forum_legend dt, .forum_legend dd {
+	margin: 0;
+	padding: 0;
+}
+
+.forum_legend dd {
+	float: right;
+	margin-left: 10px;
+}
+
+.forum_legend dt {
+	margin-left: 10px;
+	float: right;
+}
+
+.success_message {
+	color: #00b200;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.error_message {
+	color: #C00;
+	font-weight: bold;
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+.post_body {
+	padding: 5px;
+}
+
+.post_content {
+	padding: 5px 10px;
+}
+
+.quick_jump {
+	background: url(images/jump.gif) no-repeat 0;
+	width: 13px;
+	height: 13px;
+	padding-left: 13px; /* amount of padding needed for image to fully show */
+	vertical-align: middle;
+	border: none;
+}
+
+
+/* Auto-clearing of floats */
+.floatcontainer:after,
+.formcontrols .blockrow:after,
+dl.stats:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.floatcontainer,
+.formcontrols .blockrow,
+dl.stats {
+	display:inline-block;
+	font-weight:normal;
+}
+/* IE-Mac hide \*/
+* html .floatcontainer,
+.formcontrols .blockrow,
+dl.stats {
+	height:1%;
+}
+.floatcontainer,
+.formcontrols .blockrow,
+dl.stats {
+	display:block;
+}
+.floatcontainer.hidden {
+	display:none;
+}
+
+.repbox {
+	font-size:16px;
+	font-weight: bold;
+	padding:5px 7px 5px 7px;
+}
+
+._neutral {
+	background-color:#FAFAFA;
+	color: #999999;
+	border:1px solid #CCCCCC;
+}
+
+._minus {
+	background-color: #FDD2D1;
+	color: #CB0200;
+	border:1px solid #980201;
+}
+
+._plus {
+	background-color:#E8FCDC;
+	color: #008800;
+	border:1px solid #008800;
+}
+
+.pagination_breadcrumb {
+	background-color: #f5f5f5;
+	border: 1px solid #fff;
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin-top: 5px;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.pagination_breadcrumb_link {
+	vertical-align: middle;
+	cursor: pointer;
+}]]>
+		</stylesheet>
+	</stylesheets>
+	<templates>
+		<template name="header" version="1609"><![CDATA[<div id="container">
+		<a name="top" id="top"></a>
+		<div id="header">
+<div class="float_left" style="margin-left:10px;">
+{$welcomeblock}
+</div>
+			<div class="logo"><a href="{$mybb->settings['bburl']}/index.php"><img src="{$theme['logo']}" alt="{$mybb->settings['bbname']}" title="{$mybb->settings['bbname']}" /></a></div>
+	<div id="navbar" class="navbar">
+	<ul id="navtabs" class="navtabs floatcontainer">
+			<li class="selected"><a class="navtab" href="{$mybb->settings['bburl']}/index.php">انجمن</a>
+<ul class="floatcontainer">
+					<li><a href="{$mybb->settings['bburl']}/search.php">{$lang->toplinks_search}</a></li>
+					<li><a href="{$mybb->settings['bburl']}/memberlist.php">{$lang->toplinks_memberlist}</a></li>
+					<li><a href="{$mybb->settings['bburl']}/calendar.php">{$lang->toplinks_calendar}</a></li>
+					<li><a href="{$mybb->settings['bburl']}/misc.php?action=help">{$lang->toplinks_help}</a></li>
+</li>
+</ul>
+			<li><a class="navtab" href="{$mybb->settings['bburl']}/search.php?action=getdaily" accesskey="2">آخرین ارسال ها</a></li>
+	</ul>
+	
+		<div id="globalsearch" class="globalsearch">
+			<form action="search.php?do=process" method="post" id="navbar_search" class="navbar_search">
+				
+				<input type="hidden" name="do" value="process" />
+				<span class="textboxcontainer"><span><input type="text" value="" name="query" class="textbox" tabindex="99"/></span></span>
+				<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100"/></span></span>
+			</form>
+		</div>
+	</div>
+			<hr class="hidden" />
+		</div>
+		<hr class="hidden" />
+		<br class="clear" />
+		<div id="content">
+			{$pm_notice}
+			{$bannedwarning}
+			{$bbclosedwarning}
+			{$unreadreports}
+			{$pending_joinrequests}
+			<navigation>
+			<br />]]></template>
+		<template name="forumbit_depth2_forum" version="1609"><![CDATA[<tr>
+<td class="{$bgcolor}" align="center" valign="top" width="1"><img src="{$theme['imgdir']}/{$lightbulb['folder']}.png" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="ajax_mark_read" id="mark_read_{$forum['fid']}" /></td>
+<td class="{$bgcolor}" valign="top">
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div class="smalltext">{$forum['description']}{$modlist}{$subforums}</div>
+</td>
+<td class="{$bgcolor}" valign="top" align="left" style="white-space: nowrap">موضوع ها: {$threads}{$unapproved['unapproved_threads']}
+<br />
+ارسال ها: {$posts}{$unapproved['unapproved_posts']}
+</td>
+<td class="{$bgcolor}" valign="top" align="right" style="white-space: nowrap">{$lastpost}</td>
+</tr>]]></template>
+		<template name="header_welcomeblock_guest" version="1609"><![CDATA[<div class="boxes"><form action="member.php" method="post">
+<input type="text" class="textbox" name="username" size="10" tabindex="101" value="" placeholder="نام کاربری" required />
+<input type="password" class="textbox" name="password" size="10" tabindex="101" value="" placeholder="رمز عبور" required />
+<input type="submit" class="loginbutton" tabindex="104" value="ورود" title="نام کاربری و رمز عبور خود را برای ورود در بخش های مشخص شده بنویسید ,یا با کلیک بر'ثبت نام' یک حساب کاربری برای خود بسازید" />
+<input type="hidden" name="action" value="do_login" />
+</form></div>
+<div class="boxes"><a href="{$mybb->settings['bburl']}/misc.php?action=help">راهنما</a></div>
+<div class="boxes"><a href="{$mybb->settings['bburl']}/member.php?action=register">ثبت نام</a></div>]]></template>
+		<template name="forumbit_depth1_cat" version="1609"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<thead>
+<tr class="thead">
+<td colspan="2">
+<div><strong><a href="{$forum_url}">{$forum['name']}</a></strong><br /><div class="smalltext">{$forum['description']}</div></div>
+</td>
+<td width="110" class="smalltext">موضوع ها/ارسال ها</td>
+<td width="200" class="smalltext">
+<div class="expcolimage"><img src="{$theme['imgdir']}/{$expcolimage}" id="cat_{$forum['fid']}_img" class="expander" alt="{$expaltext}" title="{$expaltext}" /></div>
+آخرین ارسال ها </td>
+</tr>
+</thead>
+<tbody style="{$expdisplay}" id="cat_{$forum['fid']}_e">
+{$sub_forums}
+</tbody>
+</table>
+<br />]]></template>
+		<template name="forumbit_depth2_cat" version="1609"><![CDATA[<tr>
+<td class="{$bgcolor}" align="center" valign="top" width="1"><img src="{$theme['imgdir']}/{$lightbulb['folder']}.png" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="ajax_mark_read" id="mark_read_{$forum['fid']}" /></td>
+<td class="{$bgcolor}" valign="top">
+<strong><a href="{$forum_url}">{$forum['name']}</a></strong>{$forum_viewers_text}<div class="smalltext">{$forum['description']}{$subforums}</div>
+</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$threads}{$unapproved['unapproved_threads']}</td>
+<td class="{$bgcolor}" valign="top" align="center" style="white-space: nowrap">{$posts}{$unapproved['unapproved_posts']}</td>
+<td class="{$bgcolor}" valign="top" align="left" style="white-space: nowrap">{$lastpost}</td>
+</tr>]]></template>
+		<template name="forumdisplay_subforums" version="1609"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<thead>
+<tr class="thead">
+<td colspan="2">
+<div><strong>{$lang->sub_forums_in}</strong></div>
+</td>
+<td width="110" class="smalltext">موضوع ها/ارسال ها</td>
+<td width="200" class="smalltext">
+<div class="expcolimage"><img src="{$theme['imgdir']}/{$expcolimage}" id="cat_{$forum['fid']}_img" class="expander" alt="{$expaltext}" title="{$expaltext}" /></div>
+آخرین ارسال ها </td>
+</tr>
+</thead>
+<tbody style="{$expdisplay}" id="cat_{$forum['fid']}_e">
+{$forums}
+</tbody>
+</table>
+<br />]]></template>
+		<template name="forumbit_subforums" version="1609"><![CDATA[<ul id="subforum">{$sub_forums}</ul>]]></template>
+		<template name="forumbit_depth3" version="1609"><![CDATA[<li>{$statusicon}<a href="{$forum_url}" title="{$forum_viewers_text_plain}">{$forum['name']}</a></li>]]></template>
+		<template name="postbit_rep_button" version="1609"><![CDATA[<a href="javascript:MyBB.reputation({$post['uid']},{$post['pid']});" class="cssbuttons" title="{$lang->postbit_reputation_add}">اهداء اعتبار</a>]]></template>
+		<template name="header_welcomeblock_member" version="1609"><![CDATA[<div class="boxes"><a href="{$mybb->settings['bburl']}/member.php?action=profile&uid={$mybb->user['uid']}">{$mybb->user['username']}</a></div>
+<div class="boxes"><a href="{$mybb->settings['bburl']}/usercp.php">کنترل پنل شما</a></div>
+<div id="pms_usage">{$lang->welcome_pms_usage}</div>
+<div class="boxes" onmousemove="$('pms_usage').style.display='block';var y=event.clientY+15;var x=event.clientX+8;$('pms_usage').style.top=y+'px';$('pms_usage').style.left=x+'px';" onmouseout="$('pms_usage').style.display='none';"><a href="{$mybb->settings['bburl']}/private.php">{$lang->welcome_pms}</a>
+</div>
+{$modcplink}{$admincplink}
+<div class="boxes"><a href="{$mybb->settings['bburl']}/member.php?action=logout&amp;logoutkey={$mybb->user['logoutkey']}">{$lang->welcome_logout}</a></div>]]></template>
+		<template name="forumbit_depth3_statusicon" version="1609"><![CDATA[<img src="{$theme['imgdir']}/{$lightbulb['folder']}.png" alt="{$lightbulb['altonoff']}" title="{$lightbulb['altonoff']}" class="subforumicon ajax_mark_read" id="mark_read_{$forum['fid']}" />]]></template>
+		<template name="header_welcomeblock_member_admin" version="1609"><![CDATA[<div class="boxes"><a href="{$mybb->settings['bburl']}/{$config['admin_dir']}/index.php">{$lang->welcome_admin}</a></div>]]></template>
+		<template name="header_welcomeblock_member_moderator" version="1609"><![CDATA[<div class="boxes"><a href="{$mybb->settings['bburl']}/modcp.php">{$lang->welcome_modcp}</a></div>]]></template>
+		<template name="headerinclude" version="1609"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+<link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
+<meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/prototype.js?ver=1603"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/general.js?ver=1603"></script>
+<script type="text/javascript" src="{$mybb->settings['bburl']}/jscripts/popup_menu.js?ver=1600"></script>
+{$stylesheets}{$css_button}
+<script type="text/javascript">
+<!--
+	var cookieDomain = "{$mybb->settings['cookiedomain']}";
+	var cookiePath = "{$mybb->settings['cookiepath']}";
+	var cookiePrefix = "{$mybb->settings['cookieprefix']}";
+	var deleteevent_confirm = "{$lang->deleteevent_confirm}";
+	var removeattach_confirm = "{$lang->removeattach_confirm}";
+	var loading_text = '{$lang->ajax_loading}';
+	var saving_changes = '{$lang->saving_changes}';
+	var use_xmlhttprequest = "{$mybb->settings['use_xmlhttprequest']}";
+	var my_post_key = "{$mybb->post_code}";
+	var imagepath = "{$theme['imgdir']}";
+// -->
+</script>
+{$newpmmsg}]]></template>
+		<template name="forumdisplay_newthread" version="1609"><![CDATA[<a href="newthread.php?fid={$fid}" class="cssbuttons" title="موضوع جدید">موضوع جدید</a>]]></template>
+		<template name="showthread_newreply" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}" class="cssbuttons" title="پاسخ جدید">پاسخ جدید</a>&nbsp;]]></template>
+		<template name="showthread_newreply_closed" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}" class="cssbuttons" title="بسته شده">بسته شده</a>&nbsp;]]></template>
+		<template name="showthread_newthread" version="1609"><![CDATA[<a href="newthread.php?fid={$fid}" class="cssbuttons" title="موضوع جدید">موضوع جدید</a>&nbsp;]]></template>
+		<template name="postbit_email" version="1609"><![CDATA[<a href="member.php?action=emailuser&amp;uid={$post['uid']}" class="cssbuttons" title="ایمیل">ایمیل</a>]]></template>
+		<template name="postbit_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;uid={$post['uid']}" class="cssbuttons" title="پ.خ">پ.خ</a>]]></template>
+		<template name="postbit_find" version="1609"><![CDATA[<a href="search.php?action=finduser&amp;uid={$post['uid']}" class="cssbuttons" title="ارسال های کاربر">ارسال های کاربر</a>]]></template>
+		<template name="postbit_edit" version="1609"><![CDATA[<a href="editpost.php?pid={$post['pid']}" id="edit_post_{$post['pid']}" class="cssbuttons" title="ویرایش">ویرایش</a>
+<div id="edit_post_{$post['pid']}_popup" class="popup_menu" style="display: none;"><div class="popup_item_container"><a href="javascript:;" onclick="Thread.quickEdit({$post['pid']});" class="popup_item">{$lang->postbit_quick_edit}</a></div><div class="popup_item_container"><a href="editpost.php?pid={$post['pid']}" class="popup_item">{$lang->postbit_full_edit}</a></div></div>
+<script type="text/javascript">
+// <!--
+	if(use_xmlhttprequest == "1")
+	{
+		new PopupMenu("edit_post_{$post['pid']}");
+	}
+// -->
+</script>]]></template>
+		<template name="postbit_quickdelete" version="1609"><![CDATA[<a href="editpost.php?pid={$post['pid']}" onclick="Thread.deletePost({$post['pid']}); return false;" style="display: none;" id="quick_delete_{$post['pid']}" class="cssbuttons" title="حذف">حذف</a>
+<script type="text/javascript">
+// <!--
+	$('quick_delete_{$post['pid']}').style.display = '';
+// -->
+</script>]]></template>
+		<template name="postbit_quote" version="1609"><![CDATA[<a href="newreply.php?tid={$tid}&amp;pid={$post['pid']}" class="cssbuttons" title="نقل قول">نقل قول</a>]]></template>
+		<template name="postbit_multiquote" version="1609"><![CDATA[<a href="javascript:Thread.multiQuote({$post['pid']});" style="display: none;" id="multiquote_link_{$post['pid']}" class="cssbuttons" title="نقل قول"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/postbit_multiquote.png" alt="{$lang->postbit_multiquote}" title="{$lang->postbit_multiquote}" id="multiquote_{$post['pid']}" /></a>
+<script type="text/javascript">
+//<!--
+	$('multiquote_link_{$post['pid']}').style.display = '';
+// -->
+</script>]]></template>
+		<template name="postbit_report" version="1609"><![CDATA[<a href="javascript:Thread.reportPost({$post['pid']});" class="cssbuttons" title="گزارش">گزارش</a>]]></template>
+		<template name="postbit_delete_pm" version="1609"><![CDATA[<a href="private.php?action=delete&amp;pmid={$id}&amp;my_post_key={$mybb->post_code}" class="cssbuttons" title="حذف">حذف</a>]]></template>
+		<template name="postbit_forward_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=forward" class="cssbuttons" title="ارسال به دیگری">ارسال به دیگری</a>]]></template>
+		<template name="postbit_reply_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=reply" class="cssbuttons" title="پاسخ">پاسخ</a>]]></template>
+		<template name="postbit_replyall_pm" version="1609"><![CDATA[<a href="private.php?action=send&amp;pmid={$id}&amp;do=replyall" class="cssbuttons" title="پاسخ به همه">پاسخ به همه</a>]]></template>
+		<template name="postbit_www" version="1609"><![CDATA[<a href="{$post['website']}" target="_blank" class="cssbuttons" title="وبسایت">وبسایت</a>]]></template>
+		<template name="postbit_warn" version="1609"><![CDATA[<a href="warnings.php?action=warn&amp;uid={$post['uid']}&amp;pid={$post['pid']}" class="cssbuttons" title="اخطار">اخطار</a>]]></template>
+		<template name="index_boardstats" version="1609"><![CDATA[<table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder">
+<thead>
+<tr>
+<td class="tbsmybbirhead">
+<div><strong>فعاليت هاي در حال انجام در انجمن</strong></div>
+</td>
+</tr>
+</thead>
+<tbody style="{$collapsed['boardstats_e']}" id="boardstats_e">
+{$whosonline}
+{$birthdays}
+{$forumstats}
+<tr><td class="trow1"><div class="smalltext"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/legend.png" alt="mybbir-alirezatofighi" /> <strong>راهنمای آیکون های سایت</strong></div>
+<dl class="forum_legend smalltext" style="margin-right:20px;">
+	<div style="padding-bottom:5px;"><dt><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/minion.png" alt="انجمن شامل ارسال تازه می‌باشد" title="انجمن شامل ارسال تازه می‌باشد" style="vertical-align: middle;" /></dt>
+	<dd>انجمن شامل ارسال تازه می‌باشد</dd><br /></div>
+
+<div style="padding-bottom:5px;"><dt><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/minioff.png" alt="انجمن شامل ارسالی تازه نمی‌باشد" title="انجمن شامل ارسالی تازه نمی‌باشد"  style="vertical-align: middle;" /></dt>
+	<dd>انجمن شامل ارسالی تازه نمی‌باشد</dd><br /></div>
+
+	<div style="padding-bottom:5px;"><dt><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/miniofflock.png" alt="انجمن بسته است" title="انجمن بسته است"  style="vertical-align: middle;" /></dt>
+	<dd>انجمن بسته است</dd></div>
+</dl>
+</td></tr>
+<tr>
+	<td class="tfoot" style="text-align: right">
+		<span class="smalltext">
+			{$logoutlink}
+			<a href="misc.php?action=markread{$post_code_string}">{$lang->markread}</a> |
+			<a href="showteam.php">{$lang->forumteam}</a> |
+			<a href="stats.php">{$lang->forumstats}</a>
+		</span>
+	</td>
+</tr>
+</tbody>
+</table>
+<br />]]></template>
+		<template name="index_birthdays" version="1609"><![CDATA[<tr><td class="trow1"><strong>{$lang->todays_birthdays}</strong></div>
+<span class="smalltext">{$bdays}</span></td>
+</tr>]]></template>
+		<template name="index_stats" version="1609"><![CDATA[<tr><td class="trow1"><div class="smalltext"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/forum_stats.png" alt="mybbir-alirezatofighi" /> <strong>آمار و ارقام {$mybb->settings['bbname']}</strong></div><div class="smalltext msfont" style="margin-right:20px;">
+{$lang->stats_posts_threads}<br />
+{$lang->stats_numusers}<br />
+{$lang->stats_newestuser}<br />
+{$lang->stats_mostonline}
+</div>
+</td></tr>]]></template>
+		<template name="index_whosonline" version="1609"><![CDATA[<tr><td class="trow1"><div>
+<div class="smalltext"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/users_online.png" alt="mybbir-alirezatofighi" /> <strong>{$lang->whos_online}</strong> [<a href="online.php">{$lang->complete_list}</a>]</div>
+<div class="smalltext" style="margin-right:20px;">{$lang->online_note}<br />{$onlinemembers}</div></td>
+</div>
+</td></tr>]]></template>
+		<template name="index" version="1609"><![CDATA[<html>
+<head>
+<title>{$mybb->settings['bbname']}</title>
+{$headerinclude}
+<script type="text/javascript">
+<!--
+	lang.no_new_posts = "{$lang->no_new_posts}";
+	lang.click_mark_read = "{$lang->click_mark_read}";
+// -->
+</script>
+</head>
+<body>
+{$header}
+{$forums}
+{$boardstats}
+<br style="clear: both" />
+{$footer}
+</body>
+</html>]]></template>
+		<template name="nav" version="1609"><![CDATA[<div class="navigation">
+<a href="{$mybb->settings['bburl']}"><img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-home.png" alt="home" /></a>{$nav}{$activesep}{$activebit}
+</div>]]></template>
+		<template name="nav_sep" version="1609"><![CDATA[<img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-arrow-left.png" alt="nav_sep" />]]></template>
+		<template name="nav_sep_active" version="1609"><![CDATA[<img src="http://theme.my-bb.ir/16/2-vb/1/images/vbulletin4/navbit-arrow-left.png" alt="nav_sep" />]]></template>
+		<template name="footer" version="1609"><![CDATA[<br />
+			<div class="bottommenu">
+				<div class="float_left">{$lang_select}</div>
+				<div>
+					<span class="smalltext"><a href="{$mybb->settings['contactlink']}">{$lang->bottomlinks_contactus}</a> | <a href="{$mybb->settings['homeurl']}">{$mybb->settings['homename']}</a> | <a href="#top">{$lang->bottomlinks_returntop}</a> | <a href="#content">{$lang->bottomlinks_returncontent}</a> | <a href="<archive_url>">{$lang->bottomlinks_litemode}</a> | <a href="{$mybb->settings['bburl']}/misc.php?action=syndication">{$lang->bottomlinks_syndication}</a></span>
+				</div>
+			</div>
+			</div>
+		<hr class="hidden" />
+			<div id="copyright">
+				<div id="debug"><debugstuff></div>
+				<!-- MyBB is free software developed and maintained by a volunteer community. 
+					 It would be much appreciated by the MyBB Group if you left the full copyright and "powered by" notice intact, 
+					 to show your support for MyBB.  If you choose to remove or modify the copyright below, 
+					 you may be refused support on the MyBB Community Forums.
+					 
+					 This is free software, support us and we'll support you. -->
+طراحی قالب توسط : <a href="http://my-bb.ir/">گروه پشتیبانی مای بی بی (Www.My-BB.ir)</a><br />
+{$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
+				<!-- End powered by -->
+				<br />
+<br class="clear" />
+<!-- The following piece of code allows MyBB to run scheduled tasks. DO NOT REMOVE -->{$task_image}<!-- End task image code -->
+{$auto_dst_detection}
+		</div>
+		</div>]]></template>
+	</templates>
+</theme>
