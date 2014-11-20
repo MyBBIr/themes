@@ -1,0 +1,5 @@
+name:      MyBB Themes
+pygments:  true
+highlighter: pygments
+permalink: pretty
+baseurl:   //themes.my-bb.ir
