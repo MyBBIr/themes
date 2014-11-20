@@ -3,24 +3,24 @@
 	<properties>
 		<templateset><![CDATA[6]]></templateset>
 		<editortheme><![CDATA[default]]></editortheme>
-		<imgdir><![CDATA[http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen]]></imgdir>
-		<logo><![CDATA[http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/logo.png]]></logo>
+		<imgdir><![CDATA[http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen]]></imgdir>
+		<logo><![CDATA[http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/logo.png]]></logo>
 		<tablespace><![CDATA[4]]></tablespace>
 		<borderwidth><![CDATA[1]]></borderwidth>
 	</properties>
 	<stylesheets>
 		<stylesheet name="global.css" version="1608"><![CDATA[@font-face {
   font-family: 'b koodak';
-  src: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/BKoodakBold.eot?#') format('eot),  /* IE6–8 */
-       url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/BKoodakBold.woff') format('woff),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-       url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/BKoodakBold.ttf') format('truetype);  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+  src: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/BKoodakBold.eot?#') format('eot),  /* IE6–8 */
+       url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/BKoodakBold.woff') format('woff),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/BKoodakBold.ttf') format('truetype);  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
 }
 .msfont2 {
   font-family: 'b koodak', Tahoma;
   font-size:12px;
 }
 body {
-	background: #efefef url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/bg.gif);
+	background: #efefef url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/bg.gif);
 	color: #000;
 	font-family: Tahoma;
 	font-size: 11px;
@@ -241,11 +241,11 @@ padding:0;
 .sing {
 margin:0;
  padding:23px;
-background:url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/signature.png) center left no-repeat;
+background:url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/signature.png) center left no-repeat;
 }
 
 #panel {
-	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/panel_bg.png) top left repeat-x;
 	color: #000;
 	margin: 0;
 	margin-top: -12px;
@@ -275,7 +275,7 @@ background:url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/signature.
 .forum {
 	font-family: 'b koodak', Tahoma;
 	font-size: 12px;
-	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/forum_bit.png) center right repeat-x;
+	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/forum_bit.png) center right repeat-x;
 	width:100%;
 	margin:0;
 	margin-bottom:5px;
@@ -389,7 +389,7 @@ acronym, abbr {
 }
 
 .tcat {
-	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/panel_bg.png) top left repeat-x;
 	font-family: 'b koodak', Tahoma;
 	color: #666;
 	border-bottom: 1px solid #bebebe;
@@ -401,7 +401,7 @@ acronym, abbr {
 .tcat2 {
 	font-family: 'b koodak', Tahoma;
 	font-size: 12px;
-	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	background: #eaeaea url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/panel_bg.png) top left repeat-x;
 	color: #666;
 	width:100%;
 	margin:0;
@@ -435,12 +435,12 @@ acronym, abbr {
 }
 
 .alt1 {
-	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/alt1.png) repeat-x;
+	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/alt1.png) repeat-x;
 
 }
 
 .alt2 {
-	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/alt2.png) repeat-x;
+	background: #ffffff url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/alt2.png) repeat-x;
 
 }
 
@@ -454,7 +454,7 @@ acronym, abbr {
 }
 
 .trow_sep {
-	background: #f5f5f5 url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/panel_bg.png) top left repeat-x;
+	background: #f5f5f5 url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/panel_bg.png) top left repeat-x;
 	color: #333;
 	border-bottom: 1px solid #bebebe;
 	font-size: 12px;
@@ -803,14 +803,14 @@ blockquote cite {
 
 
 #container #header {
-	background: #fff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/header_bg.png) repeat-x;
+	background: #fff url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/header_bg.png) repeat-x;
   height: 150px;
   position: relative;
   border-bottom: 1px solid #7ebd2e;
 }
 
 #container #header a.link {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/logo_header.png) top left no-repeat;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/logo_header.png) top left no-repeat;
 	width: 99.9%;
 	height: 150px;
 	display: block;
@@ -824,7 +824,7 @@ blockquote cite {
 	right: 0;
 	height:10px;
 	width:100%;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/navbg.gif) repeat-x; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/navbg.gif) repeat-x; 
 }
 #header_footer {
 	position: absolute;
@@ -832,7 +832,7 @@ blockquote cite {
 	right: 0;
 	height:10px;
 	width:100%;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/navbg.gif) repeat-x; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/navbg.gif) repeat-x; 
 }
 
 #header_download {
@@ -899,7 +899,7 @@ div#search {
 }
 
 span#search_right {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/search_right.gif) no-repeat;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/search_right.gif) no-repeat;
   cursor: text;
   width: 3px;
   height: 26px;
@@ -911,7 +911,7 @@ span#search_right {
 }
 
 input#search_box {
-	background: #fff url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/search.png) center right no-repeat;
+	background: #fff url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/search.png) center right no-repeat;
   border: 1px solid #024570;
   border-right: 0;
 	font-family: Tahoma, 'Trebuchet MS', Arial, sans-serif;
@@ -924,7 +924,7 @@ input#search_box {
 }
 
 input#search_button {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/search_button2.png) 100% 0% no-repeat; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/search_button2.png) 100% 0% no-repeat; 
 	font-family: Tahoma, 'Trebuchet MS', Arial, sans-serif;
 	color: #fff;
 	border: 0;
@@ -949,7 +949,7 @@ input#search_button:hover {
 	top: 91px;
 	right: 0;
 	padding-left: 41px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg_start.png) no-repeat; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/menu_bg_start.png) no-repeat; 
 	font-family: Tahoma, 'Trebuchet MS', Arial, sans-serif
 }
 
@@ -958,7 +958,7 @@ input#search_button:hover {
 	margin: 0;
 	padding: 0;
 	height: 34px;
-	background: #016db0 url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg.png) repeat-x;
+	background: #016db0 url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/menu_bg.png) repeat-x;
 }
 
 #menu li {
@@ -981,14 +981,14 @@ input#search_button:hover {
 }
 
 #menu li.active a, #menu li.active a:hover {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg_active.png) no-repeat top left; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/menu_bg_active.png) no-repeat top left; 
 	color: #000;
 	padding: 4px 10px 4px 13px;
 	border-bottom: 2px solid #ffffff;
 }
 
 #menu li.active {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/menu_bg_active2.png) no-repeat top right; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/menu_bg_active2.png) no-repeat top right; 
 	padding-right: 4px;
 	position: relative;
 	bottom: -1px;
@@ -1206,7 +1206,7 @@ blockquote cite span.highlight {
 }
 
 .quick_jump {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/jump.gif) no-repeat 0; 
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/jump.gif) no-repeat 0; 
 	width: 13px; 
 	height: 13px; 
 	padding-left: 13px;  
@@ -1303,19 +1303,19 @@ blockquote cite span.highlight {
 }
 
 .usercp_nav_support_threads {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_support.png) no-repeat left center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/mysupport_support.png) no-repeat left center;
 }
 
 .usercp_nav_assigned_threads {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_assigned.png) no-repeat left center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/mysupport_assigned.png) no-repeat left center;
 }
 
 .modcp_nav_tech_threads {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_technical.png) no-repeat left center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/mysupport_technical.png) no-repeat left center;
 }
 
 .modcp_nav_deny_support {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/mysupport_no_support.gif) no-repeat left center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/mysupport_no_support.gif) no-repeat left center;
 }
 		
 .hide {
@@ -1335,98 +1335,98 @@ blockquote cite span.highlight {
 	padding: 1px 23px 1px 0;
 }
 .usercp_nav_composepm {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/composepm.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/composepm.gif) no-repeat right center;
 }
 
 .usercp_nav_pmfolder {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/pmfolder.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/pmfolder.gif) no-repeat right center;
 }
 
 .usercp_nav_sub_pmfolder {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/sub_pmfolder.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/sub_pmfolder.gif) no-repeat right center;
 }
 
 .usercp_nav_trash_pmfolder {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/trash_pmfolder.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/trash_pmfolder.gif) no-repeat right center;
 }
 
 .usercp_nav_pmtracking {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/pmtracking.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/pmtracking.gif) no-repeat right center;
 }
 
 .usercp_nav_pmfolders {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/editfolders.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/editfolders.gif) no-repeat right center;
 }
 
 .usercp_nav_profile {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/profile.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/profile.gif) no-repeat right center;
 }
 
 .usercp_nav_email {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/email.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/email.gif) no-repeat right center;
 }
 
 .usercp_nav_password {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/password.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/password.gif) no-repeat right center;
 }
 
 .usercp_nav_username {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/username.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/username.gif) no-repeat right center;
 }
 
 .usercp_nav_editsig {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/editsig.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/editsig.gif) no-repeat right center;
 }
 
 .usercp_nav_avatar {
 	padding-right: 40px;
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/avatar.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/avatar.gif) no-repeat right center;
 }
 
 .usercp_nav_options {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/options.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/options.gif) no-repeat right center;
 }
 
 .usercp_nav_usergroups {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/usergroups.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/usergroups.gif) no-repeat right center;
 }
 
 .usercp_nav_editlists {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/editlists.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/editlists.gif) no-repeat right center;
 }
 
 .usercp_nav_attachments {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/attachments.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/attachments.gif) no-repeat right center;
 }
 
 .usercp_nav_drafts {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/drafts.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/drafts.gif) no-repeat right center;
 }
 
 .usercp_nav_subscriptions {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/subscriptions.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/subscriptions.gif) no-repeat right center;
 }
 
 .usercp_nav_fsubscriptions {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/fsubscriptions.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/fsubscriptions.gif) no-repeat right center;
 }
 
 .usercp_nav_notepad {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/notepad.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/notepad.gif) no-repeat right center;
 }
 
 .usercp_nav_viewprofile {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/viewprofile.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/viewprofile.gif) no-repeat right center;
 }
 
 .usercp_nav_home {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/usercp/home.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/usercp/home.gif) no-repeat right center;
 }
 
 .usercp_notepad {
@@ -1446,39 +1446,39 @@ blockquote cite span.highlight {
 }
 
 .modcp_nav_home {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/home.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/home.gif) no-repeat right center;
 }
 
 .modcp_nav_announcements {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/announcements.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/announcements.gif) no-repeat right center;
 }
 
 .modcp_nav_reports {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/reports.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/reports.gif) no-repeat right center;
 }
 
 .modcp_nav_modqueue {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/modqueue.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/modqueue.gif) no-repeat right center;
 }
 
 .modcp_nav_modlogs {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/modlogs.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/modlogs.gif) no-repeat right center;
 }
 
 .modcp_nav_editprofile {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/editprofile.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/editprofile.gif) no-repeat right center;
 }
 
 .modcp_nav_banning {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/banning.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/banning.gif) no-repeat right center;
 }
 
 .modcp_nav_warninglogs {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/warninglogs.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/warninglogs.gif) no-repeat right center;
 }
 
 .modcp_nav_ipsearch {
-	background: url(http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/modcp/ipsearch.gif) no-repeat right center;
+	background: url(http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/modcp/ipsearch.gif) no-repeat right center;
 }
 
 .modqueue_message {
@@ -1598,7 +1598,7 @@ left:10px;">
 		<template name="footer" version="1608"><![CDATA[<br />		
 <div><table border="0" cellspacing="1" cellpadding="4" class="tborder" style="margin-bottom:5px;"><tr><td width="35%" class="thead">علاقه مندی ها</td><td width="45%" class="thead">درباره ما</td><td width="20%" class="thead">امکانات وبسایت</td></tr></table></div>
 <div><table border="0" cellspacing="1" cellpadding="4" class="tborder" style="margin-bottom:5px;"><tr><td width="35%" class="alt1 msfont2">
-<div style="float:right;"> <img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_1.png"> &nbsp; <a href="http://www.facebook.com/share.php?u={$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_2.png"></a> &nbsp; <a href="http://twitter.com/home?status=Browsing:%20{$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_3.png"></a> <br> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t={$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_4.png"></a> &nbsp; <a href="{$mybb->settings['bburl']}/misc.php?action=syndication"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/footer_5.png"></a> </div>
+<div style="float:right;"> <img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/footer_1.png"> &nbsp; <a href="http://www.facebook.com/share.php?u={$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/footer_2.png"></a> &nbsp; <a href="http://twitter.com/home?status=Browsing:%20{$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/footer_3.png"></a> <br> <a href="http://myweb2.search.yahoo.com/myresults/bookmarklet?t={$mybb->settings['bburl']}" rel="nofollow"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/footer_4.png"></a> &nbsp; <a href="{$mybb->settings['bburl']}/misc.php?action=syndication"><img height="64" width="64" src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/footer_5.png"></a> </div>
 </td><td width="45%" class="alt1 msfont2">
 طراحی قالب توسط: <a href="http://my-bb.ir" target="_blank">AliReza_Tofighi</a><br />
 {$lang->powered_by} <a href="http://mybb.com/" target="_blank">MyBB{$mybbversion}</a>, &copy; 2002-{$copy_year} <a href="http://mybb.com/" target="_blank">MyBB Group</a>.<br />
@@ -1640,7 +1640,7 @@ left:10px;">
 <tr>
 <td class="thead">
 <div class="expcolimage"><img src="{$theme['imgdir']}/collapse{$collapsedimg['boardstats']}.gif" id="boardstats_img" class="expander" alt="[-]" title="[-]" /></div>
-<img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/statistics.png" style="margin-bottom: -21px;margin-top: -20px;margin-right: -10px;margin-left: 10px;" />
+<img src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/statistics.png" style="margin-bottom: -21px;margin-top: -20px;margin-right: -10px;margin-left: 10px;" />
 <div style="margin-right: 60px;"><strong>{$lang->boardstats}</strong></div>
 </td>
 </tr>
@@ -1651,7 +1651,7 @@ left:10px;">
 {$forumstats}
 
 <tr><td class="alt1">
-<div class="msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/legend.png" alt="my-bb.ir-AliReza-Tofighi" /> <strong>راهنمای آیکون های سایت</strong></div>
+<div class="msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/legend.png" alt="my-bb.ir-AliReza-Tofighi" /> <strong>راهنمای آیکون های سایت</strong></div>
 <dl class="forum_legend smalltext" style="margin-right:20px;">
 	<div style="padding-bottom:5px;"><dt><img src="{$theme['imgdir']}/minion.gif" alt="{$lang->new_posts}" title="{$lang->new_posts}" style="vertical-align: middle;" /></dt>
 	<dd>{$lang->new_posts}</dd><br /></div>
@@ -1690,7 +1690,7 @@ document.write('<input name="url" type="hidden" value="'+document.location.href+
 <label title="{$lang->remember_me_desc}"><input type="checkbox" class="checkbox" name="remember" checked="checked" value="yes" /> {$lang->remember_me}</label>&nbsp;&nbsp;
 <input type="submit" class="button" name="loginsubmit" value="{$lang->login}" /> &nbsp;&nbsp; <input type="button" class="button" value="ثبت نام" onclick="window.location='{$mybb->settings['bburl']}/member.php?action=register'" />
 </div></form>]]></template>
-		<template name="nav_sep_active" version="1606"><![CDATA[<br /><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/nav_bit.gif" />]]></template>
+		<template name="nav_sep_active" version="1606"><![CDATA[<br /><img src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/nav_bit.gif" />]]></template>
 		<template name="postbit" version="1608"><![CDATA[{$ignore_bit}
 <table border="0" cellspacing="{$theme['borderwidth']}" cellpadding="{$theme['tablespace']}" class="tborder" style="{$post_extra_style} {$post_visibility}" id="post_{$post['pid']}"><tr>
             <td class="tcat" width="210px"><span class="smalltext"><strong>{$lang->author}</strong></span></td>
@@ -1823,7 +1823,7 @@ new PopupMenu("profilelink_{$post['pid']}");
 		<template name="index_birthdays" version="1608"><![CDATA[<tr><td class="alt1"><strong>{$lang->todays_birthdays}</strong></div>
 <span class="smalltext">{$bdays}</span></td>
 </tr>]]></template>
-		<template name="index_stats" version="1608"><![CDATA[<tr><td class="alt1"><div class="msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/forum_stats.png" alt="mybbir-AliReza-Tofighi" /> <strong>آمار و ارقام {$mybb->settings['bbname']}</strong></div><div class="smalltext msfont" style="margin-right:20px;">
+		<template name="index_stats" version="1608"><![CDATA[<tr><td class="alt1"><div class="msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/forum_stats.png" alt="mybbir-AliReza-Tofighi" /> <strong>آمار و ارقام {$mybb->settings['bbname']}</strong></div><div class="smalltext msfont" style="margin-right:20px;">
 {$lang->stats_posts_threads}<br />
 {$lang->stats_numusers}<br />
 {$lang->stats_newestuser}<br />
@@ -1853,7 +1853,7 @@ new PopupMenu("profilelink_{$post['pid']}");
 </body>
 </html>]]></template>
 		<template name="index_whosonline" version="1608"><![CDATA[<tr><td class="alt1"><div>
-<div class="smalltext msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/images/mybbgreen/users_online.png" alt="mybbir-AliReza-Tofighi" /> <strong>{$lang->whos_online}</strong> [<a href="online.php">{$lang->complete_list}</a>]</div>
+<div class="smalltext msfont2"><img src="http://themes.my-bb.ir/16/1-mybbgreen/1/images/mybbgreen/users_online.png" alt="mybbir-AliReza-Tofighi" /> <strong>{$lang->whos_online}</strong> [<a href="online.php">{$lang->complete_list}</a>]</div>
 <div class="smalltext" style="margin-right:20px;">{$lang->online_note}<br />{$onlinemembers}</div></td>
 </div>
 </td></tr>]]></template>
