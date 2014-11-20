@@ -42,9 +42,8 @@
 				<th>URL</th>
 				<th style="width:50px">Copy</th>
 			</tr>
-			{% assign sorted_themes = site.themes | sort:"name" %}
-			{% for theme in sorted_themes %}
-				<tr><td class="themename"><a href="{{ theme.link }}" target="_blank">{{ theme.name }}</a></td><td>{{ theme.mybb }}</td><td>{{ theme.dir }}</td><td class="themeurl">{{ theme.url }}</td><td><a href="javascript:void(0);" class="copy">Copy!</a></td></tr>
+			{% for theme in site.data %}
+				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td>{{ theme[1].mybb }}</td><td>{{ theme[1].dir }}</td><td class="themeurl">{{ theme[1].url }}</td><td><a href="javascript:void(0);" class="copy">Copy!</a></td></tr>
 			{% endfor %}
 		</table>
 	</div>
