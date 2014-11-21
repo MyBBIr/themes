@@ -1,0 +1,31 @@
+body {
+	font-family: 'Open Sans';
+}
+
+#content th {
+	font-size: 16px;
+}
+
+#content td {
+	padding: 4px;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+.themename a {
+	font-weight: bold;
+	color: #d44950;
+}
+
+#copied {
+	position: fixed;
+	z-index: 10000;
+	top: 30px;
+	right: 30px;
+	width: 270px;
+	border-radius: 4px;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 20px 10px;
+	color: #fff;
+	color: 20px;
+}
