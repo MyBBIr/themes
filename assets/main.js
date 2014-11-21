@@ -13,9 +13,9 @@ $("#search").bind("change keyup focus blur", function()
 	});
 });
 
-var client = new ZeroClipboard( document.getElementsByClassName("copy"));
-client.on( "load", function(client) {
-  client.on( "complete", function(client, args) {
+var client = new ZeroClipboard( $(".copy"));
+client.on( "ready", function(readyEvent) {
+  client.on( "aftercopy", function(event) {
 	$('#copied').fadeIn('slow');
 	$('#copied').delay(2000).fadeOut('slow');
   } );

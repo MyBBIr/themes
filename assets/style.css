@@ -12,6 +12,17 @@ body {
 	vertical-align: middle;
 }
 
+.zeroclipboard-is-hover.copy {
+	color: #fff;
+	background-color: #c9302c;
+	border-color: #ac2925;
+	cursor: pointer;
+}
+
+object {
+	cursor: pointer;
+}
+
 .themename a {
 	font-weight: bold;
 	color: #d44950;
