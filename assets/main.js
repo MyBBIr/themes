@@ -56,3 +56,8 @@ client.on( "ready", function(readyEvent) {
 } );
 
 $("#content").tablesorter();
+
+$(window).resize(function(){
+	$('.themeurl').width($('.container').width()-440);
+});
+$(window).resize();

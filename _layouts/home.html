@@ -35,21 +35,21 @@
     </nav>
 	</div>
 	<div class="container">
-		<table class="table table-hover" id="content">
+		<div class="table-responsive"><table class="table table-hover" id="content">
 			<thead>
 				<tr>
-					<th style="width:200px">Theme</th>
-					<th style="width:90px">MyBB</th>
-					<th style="width:70px">Dir</th>
+					<th style="width:200px;min-width:200px">Theme</th>
+					<th style="width:90px;min-width:90px">MyBB</th>
+					<th style="width:70px;min-width:70px">Dir</th>
 					<th colspan="2">URL</th>
 				</tr>
 			</thead>
 			<tbody>
 			{% for theme in site.data %}
-				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td>{{ theme[1].mybb }}</td><td>{{ theme[1].dir }}</td><td class="themeurl">{{ theme[1].url }}</td><td style="width:60px"><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy">Copy</button></td></tr>
+				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td>{{ theme[1].mybb }}</td><td>{{ theme[1].dir }}</td><td><div class="themeurl" title="{{ theme[1].url }}">{{ theme[1].url }}</div></td><td style="width:60px"><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy">Copy</button></td></tr>
 			{% endfor %}
 			</tbody>
-		</table>
+		</table></div>
 		<footer>
 			<span class="pull-right">
 				Hosted By: <a href="https://github.com" target="_blank">Github</a> - Enhanced by <a href="https://cloudflare.com" target="_blank">CloudFlare</a>

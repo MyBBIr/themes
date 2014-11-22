@@ -97,3 +97,11 @@ footer {
 	border-top: 1px solid #eee;
 	padding: 5px 0;
 }
+
+.themeurl {
+	font-size: 11px!important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	min-width: 100px;
+}
