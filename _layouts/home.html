@@ -4,16 +4,15 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="icon" type="image/png" href="favicon.png"/>
 	<title>MyBB Themes</title>
 </head>
 <body>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
+	<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -25,7 +24,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="http://my-bb.ir">My-BB.Ir</a></li>
+            <li><a href="https://github.com/MyBBIr/themes" target="_blank">Add Theme</a></li>
           </ul>
       <div class="navbar-form navbar-right" role="search">
         <div class="form-group">
@@ -33,31 +32,32 @@
         </div>
       </div>
         </div><!--/.nav-collapse -->
-      </div>
     </nav>
-	<br><br><br>
+	</div>
 	<div class="container">
-		<table class="table table-hover table-striped" id="content">
+		<table class="table table-hover" id="content">
 			<thead>
 				<tr>
 					<th style="width:200px">Theme</th>
-					<th style="width:50px">MyBB</th>
-					<th style="width:50px">Dir</th>
-					<th>URL</th>
-					<th style="width:60px">&nbsp;</th>
+					<th style="width:90px">MyBB</th>
+					<th style="width:70px">Dir</th>
+					<th colspan="2">URL</th>
 				</tr>
 			</thead>
 			<tbody>
 			{% for theme in site.data %}
-				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td>{{ theme[1].mybb }}</td><td>{{ theme[1].dir }}</td><td class="themeurl">{{ theme[1].url }}</td><td><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy">Copy</button></td></tr>
+				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td>{{ theme[1].mybb }}</td><td>{{ theme[1].dir }}</td><td class="themeurl">{{ theme[1].url }}</td><td style="width:60px"><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy">Copy</button></td></tr>
 			{% endfor %}
 			</tbody>
 		</table>
+		<footer>
+			<span class="pull-right">
+				Hosted By: <a href="https://github.com" target="_blank">Github</a> - Enhanced by <a href="https://cloudflare.com" target="_blank">CloudFlare</a>
+			</span>
+			Copyright &copy; 2002-2014 <a href="http://my-bb.ir" target="_blank">My-BB.Ir</a>
+		</footer>
 	</div>
-	<div id="copied" style="display:none"><span class="glyphicon glyphicon-ok"></span> Copied to the clipboard!</div>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-	<script src="assets/ZeroClipboard.min.js"></script>
+	<div id="copieds"></div>
 	<script src="assets/main.js"></script>
 </body>
 </html>

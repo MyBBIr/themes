@@ -1,5 +1,14 @@
+::selection{
+	background: rgba(255, 200, 0, 0.4);
+}
+
+::-moz-selection {
+	background: rgba(255, 200, 0, 0.4);
+}
+
 body {
 	font-family: 'Open Sans';
+	padding-top: 10px;
 }
 
 #content th {
@@ -24,19 +33,67 @@ object {
 }
 
 .themename a {
-	font-weight: bold;
+	font-weight: 600;
 	color: #d44950;
 }
 
-#copied {
+#copieds {
 	position: fixed;
 	z-index: 10000;
 	top: 30px;
 	right: 30px;
-	width: 270px;
+}
+
+.copied {
 	border-radius: 4px;
 	background: rgba(0, 0, 0, 0.7);
 	padding: 20px 10px;
 	color: #fff;
 	color: 20px;
+	margin: 5px 0;
+	width: 270px;
+}
+
+#search {
+	width: 300px;
+}
+
+@media(max-width: 768px)
+{
+	#search {
+		width:100%;
+	}
+}
+
+table#content thead tr .header:after {
+	float: right;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	content: "\2212";
+	display:inline-block;
+	vertical-align: middle;
+	margin-top:4px;
+	cursor: pointer;
+	color: #666;
+}
+
+table#content thead tr .header.nosort:after {
+	display: none!important;
+}
+
+table#content thead tr .headerSortUp:after {
+	content: "\e113";
+}
+table#content thead tr .headerSortDown:after {
+	content: "\e114";
+}
+
+footer {
+	font-size: 11px;
+	border-top: 1px solid #eee;
+	padding: 5px 0;
 }
