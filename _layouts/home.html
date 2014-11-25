@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="icon" type="image/png" href="favicon.png"/>
-	<title>MyBB Themes</title>
+	<title data-en-content="MyBB Themes" data-fa-content="پوسته‌های مای بی‌بی">MyBB Themes</title>
 </head>
 <body>
 	<div class="container">
@@ -20,17 +20,28 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">MyBB Themes</a>
+          <a class="navbar-brand" href="#" data-en-content="MyBB Themes" data-fa-content="پوسته‌های مای بی‌بی">MyBB Themes</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="https://github.com/MyBBIr/themes" target="_blank">Add Theme</a></li>
+            <li><a href="https://github.com/MyBBIr/themes" target="_blank" data-en-content="Add Theme" data-fa-content="افزودن پوسته">Add Theme</a></li>
           </ul>
-      <div class="navbar-form navbar-right" role="search">
+      <ul class="nav navbar-nav navbar-right" data-en-class="navbar-right" data-fa-class="navbar-left">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span data-en-content="EN" data-fa-content="فا">EN</span> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="javascript:setLang('en')">English</a></li>
+            <li><a href="javascript:setLang('fa')">فارسی</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="navbar-form navbar-right" role="search" data-en-class="navbar-right" data-fa-class="navbar-left">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search" id="search">
+          <input type="text" class="form-control" placeholder="Search" id="search" data-en-pl="Search" data-fa-pl="جستجو">
         </div>
       </div>
+
         </div><!--/.nav-collapse -->
     </nav>
 	</div>
@@ -38,20 +49,20 @@
 		<div class="table-responsive"><table class="table table-hover" id="content">
 			<thead>
 				<tr>
-					<th style="width:200px;min-width:200px">Theme</th>
-					<th style="width:90px;min-width:90px">MyBB</th>
-					<th style="width:70px;min-width:70px">Dir</th>
-					<th colspan="2">URL</th>
+					<th style="width:200px;min-width:200px" data-en-content="Theme" data-fa-content="نام پوسته">Theme</th>
+					<th style="width:90px;min-width:120px" data-en-content="MyBB" data-fa-content="مای‌بی‌بی">MyBB</th>
+					<th style="width:70px;min-width:70px" data-en-content="Dir" data-fa-content="جهت">Dir</th>
+					<th colspan="2" data-en-content="XML File" data-fa-content="فایل XML">XML File</th>
 				</tr>
 			</thead>
 			<tbody>
 			{% for theme in site.data %}
-				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td>{{ theme[1].mybb }}</td><td>{{ theme[1].dir }}</td><td><div class="themeurl" title="{{ theme[1].url }}">{{ theme[1].url }}</div></td><td style="width:60px"><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy">Copy</button></td></tr>
+				<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td class="dir-ltr">{{ theme[1].mybb }}</td><td class="dir-ltr">{{ theme[1].dir }}</td><td><div class="themeurl" title="{{ theme[1].url }}">{{ theme[1].url }}</div></td><td style="width:60px"><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy" data-en-content="Copy" data-fa-content="رونوشت">Copy</button></td></tr>
 			{% endfor %}
 			</tbody>
 		</table></div>
 		<footer>
-			<span class="pull-right">
+			<span class="pull-right" data-en-class="pull-right" data-fa-class="pull-left">
 				Hosted By: <a href="https://github.com" target="_blank">Github</a> - Enhanced by <a href="https://cloudflare.com" target="_blank">CloudFlare</a>
 			</span>
 			Copyright &copy; 2002-2014 <a href="http://my-bb.ir" target="_blank">My-BB.Ir</a>

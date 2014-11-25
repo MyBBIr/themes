@@ -6,8 +6,19 @@
 	background: rgba(255, 200, 0, 0.4);
 }
 
+@font-face {
+	font-family: 'Yekan';
+	src: url('BYekan.eot');
+	src: url('BYekan.eot#iefix') format('embedded-opentype'),
+	url('BYekan.woff') format('woff'),
+	url('BYekan.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
 body {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', Yekan, Tahoma;
 	padding-top: 10px;
 }
 
@@ -104,4 +115,41 @@ footer {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	min-width: 100px;
+}
+
+.dir-ltr {
+	direction: ltr;
+}
+
+
+/* RTL */
+html[dir=rtl] .table th,
+html[dir=rtl] .table td {
+	text-align: right;
+}
+
+html[dir=rtl] table#content thead tr .header:after {
+	float: left;
+}
+
+html[dir=rtl] #copieds {
+	right: auto;
+	left: 30px;
+}
+
+html[dir=rtl] .navbar-brand {
+	float: right;
+}
+
+@media (min-width: 768px)
+{
+	html[dir=rtl] .navbar-header, html[dir=rtl] .navbar-nav {
+		float: right;
+		padding-right: 0;
+		padding-right: 10px;
+	}
+	
+	html[dir=rtl] .navbar-left {
+		margin-left: -15px;
+	}
 }
