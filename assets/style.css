@@ -20,6 +20,7 @@
 body {
 	font-family: 'Open Sans', Yekan, Tahoma;
 	padding-top: 10px;
+	font-size: 15px;
 }
 
 #content th {
@@ -66,7 +67,7 @@ object {
 }
 
 #search {
-	width: 300px;
+	width: 200px;
 }
 
 @media(max-width: 768px)

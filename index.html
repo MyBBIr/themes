@@ -1,3 +1,18 @@
 ---
 layout: home
 ---
+<div class="table-responsive"><table class="table table-hover" id="content">
+	<thead>
+		<tr>
+			<th style="width:200px;min-width:200px" data-en-content="Theme" data-fa-content="نام پوسته">Theme</th>
+			<th style="width:90px;min-width:120px" data-en-content="MyBB" data-fa-content="مای‌بی‌بی">MyBB</th>
+			<th style="width:70px;min-width:70px" data-en-content="Dir" data-fa-content="جهت">Dir</th>
+			<th colspan="2" data-en-content="XML File" data-fa-content="فایل XML">XML File</th>
+		</tr>
+	</thead>
+	<tbody>
+	{% for theme in site.data %}
+		<tr><td class="themename"><a href="{{ theme[1].link }}" target="_blank">{{ theme[1].name }}</a></td><td class="dir-ltr">{{ theme[1].mybb }}</td><td class="dir-ltr">{{ theme[1].dir }}</td><td><div class="themeurl" title="{{ theme[1].url }}">{{ theme[1].url }}</div></td><td style="width:60px"><button data-clipboard-text="{{ theme[1].url }}" type="button" class="btn btn-danger btn-sm copy" data-en-content="Copy" data-fa-content="رونوشت">Copy</button></td></tr>
+	{% endfor %}
+	</tbody>
+</table></div>
